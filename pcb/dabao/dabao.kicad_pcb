@@ -124,12 +124,12 @@
 	(net 42 "/col_inner")
 	(net 43 "Net-(J3-Pin_2)")
 	(net 44 "unconnected-(U1-P1.02-LF-Pad26)")
-	(net 45 "unconnected-(U1-BAT+-Pad13)")
+	(net 45 "/RESET")
 	(net 46 "unconnected-(U1-P1.01-LF-Pad25)")
 	(net 47 "Net-(J3-Pin_3)")
-	(net 48 "unconnected-(U1-GND-Pad4)")
+	(net 48 "/BAT+")
 	(net 49 "unconnected-(U1-P1.07-LF-Pad27)")
-	(net 50 "unconnected-(U1-GND-Pad3)")
+	(net 50 "unconnected-(U1-P1.04-LF-Pad11)")
 	(net 51 "unconnected-(U2-NC-Pad14)")
 	(net 52 "Net-(J3-Pin_1)")
 	(net 53 "Net-(J3-Pin_4)")
@@ -154,12 +154,10 @@
 	(net 72 "/SCK")
 	(net 73 "Net-(J5-Pin_2)")
 	(net 74 "GND")
-	(net 75 "Net-(U1-RST)")
-	(net 76 "Net-(SW2-A)")
-	(net 77 "unconnected-(U1-P0.08-Pad2)")
-	(net 78 "unconnected-(U1-P0.06-Pad1)")
-	(net 79 "/PS2_Data")
-	(net 80 "/PS2_CLK")
+	(net 75 "unconnected-(U1-P0.24-Pad8)")
+	(net 76 "unconnected-(U1-BAT+-Pad29)")
+	(net 77 "/PS2_Data")
+	(net 78 "/PS2_CLK")
 	(footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 		(layer "F.Cu")
 		(uuid "146802c1-718c-4771-822f-f56462b0a720")
@@ -788,7 +786,7 @@
 			(net 31 "unconnected-(J2-SHIELD-PadS1)")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "15a82502-ffcc-4aef-8c2e-2073b770cb45")
+			(uuid "ad611567-8aea-435d-b274-d327789d30ff")
 		)
 		(pad "S1" thru_hole oval
 			(at 7.3 0.98 90)
@@ -799,7 +797,7 @@
 			(net 31 "unconnected-(J2-SHIELD-PadS1)")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "15a82502-ffcc-4aef-8c2e-2073b770cb45")
+			(uuid "99c054ef-af04-4e5c-a742-44424c9b2d0c")
 		)
 		(pad "S1" thru_hole oval
 			(at 7.3 4.36 90)
@@ -810,7 +808,7 @@
 			(net 31 "unconnected-(J2-SHIELD-PadS1)")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "15a82502-ffcc-4aef-8c2e-2073b770cb45")
+			(uuid "5ec3f839-0ad8-40d7-890e-84ea1de8d408")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4085.step"
@@ -1714,7 +1712,7 @@
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.243902)
-			(net 26 "/SDA_Left")
+			(net 30 "/SDA_Right")
 			(pintype "passive")
 			(uuid "ac046691-2278-483e-99c3-e556b7474954")
 		)
@@ -1956,7 +1954,7 @@
 			(size 0.8 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 75 "Net-(U1-RST)")
+			(net 45 "/RESET")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "9622d485-d547-44c0-ac08-f43699bf19b5")
@@ -2476,7 +2474,7 @@
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.243902)
-			(net 25 "/SCL_Left")
+			(net 29 "/SCL_Right")
 			(pintype "passive")
 			(uuid "055b471a-dc76-4e3d-b419-4910fb1f87b5")
 		)
@@ -3220,7 +3218,7 @@
 			(uuid "40fca060-1556-4c63-b49b-7bdcade34d1b")
 		)
 		(fp_line
-			(start -1.5 -2.899999)
+			(start -1.5 -2.899998)
 			(end -1.5 -1.4)
 			(stroke
 				(width 0.08)
@@ -3251,7 +3249,7 @@
 		)
 		(fp_line
 			(start -0.1 -2.9)
-			(end -1.5 -2.899999)
+			(end -1.5 -2.899998)
 			(stroke
 				(width 0.08)
 				(type solid)
@@ -3431,7 +3429,7 @@
 		)
 		(fp_line
 			(start -1.5 -1.4)
-			(end -1.5 -2.899999)
+			(end -1.5 -2.899998)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -3460,7 +3458,7 @@
 			(uuid "fb280c3f-f636-4e61-bb83-322fa592b4e7")
 		)
 		(fp_line
-			(start -1.5 -2.899999)
+			(start -1.5 -2.899998)
 			(end 1.5 -2.9)
 			(stroke
 				(width 0.05)
@@ -3600,7 +3598,7 @@
 			(uuid "daf1d07c-f60b-4cec-b449-14d1901c81e6")
 		)
 		(fp_line
-			(start -1.5 -2.899999)
+			(start -1.5 -2.899998)
 			(end -1.5 -1.4)
 			(stroke
 				(width 0.08)
@@ -3631,7 +3629,7 @@
 		)
 		(fp_line
 			(start -0.1 -2.9)
-			(end -1.5 -2.899999)
+			(end -1.5 -2.899998)
 			(stroke
 				(width 0.08)
 				(type solid)
@@ -3753,7 +3751,7 @@
 			(size 0.6 1.25)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 76 "Net-(SW2-A)")
+			(net 48 "/BAT+")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "6cca53f7-85b2-4ecf-9f9d-b01394d37df8")
@@ -3787,21 +3785,21 @@
 			(size 0.7 1.1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(uuid "10360c57-39f9-42bf-bddd-5da8e1fb84ef")
+			(uuid "db99351b-5dd6-48b8-9b46-c1c023010724")
 		)
 		(pad "MP" smd roundrect
 			(at 3.7 -1.15 255)
 			(size 0.7 1.1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(uuid "10360c57-39f9-42bf-bddd-5da8e1fb84ef")
+			(uuid "ce879d0d-4ffe-4a22-9e41-1c06c69cad8b")
 		)
 		(pad "MP" smd roundrect
 			(at 3.7 1.15 255)
 			(size 0.7 1.1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(uuid "10360c57-39f9-42bf-bddd-5da8e1fb84ef")
+			(uuid "0b0f414a-d91f-49fc-abc6-0774cd2edf54")
 		)
 		(embedded_fonts no)
 		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/SW_MSK12C02.step"
@@ -5120,7 +5118,7 @@
 			(uuid "41004ce5-a183-49df-8fbb-cf3299bebf36")
 		)
 		(fp_line
-			(start 7 4.999999)
+			(start 7 4.999998)
 			(end 9.5 5)
 			(stroke
 				(width 0.12)
@@ -5296,7 +5294,7 @@
 			(net 38 "/col_pinky")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "25a73487-692c-4a81-9be7-c0f93fedf73d")
+			(uuid "320ed29e-3c44-48f1-84fd-d4033be543b2")
 		)
 		(pad "1" smd rect
 			(at 3.275 5.95 345)
@@ -5305,7 +5303,7 @@
 			(net 38 "/col_pinky")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "25a73487-692c-4a81-9be7-c0f93fedf73d")
+			(uuid "84c6dcd9-ea8e-481a-b309-8a193dd31bb9")
 		)
 		(pad "2" smd rect
 			(at -8.275 3.75 345)
@@ -5325,7 +5323,7 @@
 			(net 1 "Net-(D1-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "9e9f4ef2-1140-4640-b673-386010ca63c0")
+			(uuid "3b8947fa-d6d9-446b-b006-337c54714a5d")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 345)
@@ -5336,7 +5334,7 @@
 			(net 1 "Net-(D1-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "9e9f4ef2-1140-4640-b673-386010ca63c0")
+			(uuid "51a93d80-52f9-4cf4-9144-23ab102d7b72")
 		)
 		(pad "2" smd rect
 			(at 8.275 3.75 345)
@@ -5345,7 +5343,7 @@
 			(net 1 "Net-(D1-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "9e9f4ef2-1140-4640-b673-386010ca63c0")
+			(uuid "164f9cc2-31f7-4e23-85cb-c362086662fb")
 		)
 		(embedded_fonts no)
 	)
@@ -6494,7 +6492,7 @@
 			(net 41 "/col_index")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "ac9891eb-7a38-4f5f-af5e-94de84f451bf")
+			(uuid "3901b89e-64a7-470f-8015-adf69e12c301")
 		)
 		(pad "1" smd rect
 			(at 3.275 5.95 330)
@@ -6503,7 +6501,7 @@
 			(net 41 "/col_index")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "ac9891eb-7a38-4f5f-af5e-94de84f451bf")
+			(uuid "8ff324af-a5ab-438b-8993-a9c616682a16")
 		)
 		(pad "2" smd rect
 			(at -8.275 3.75 330)
@@ -6523,7 +6521,7 @@
 			(net 21 "Net-(D17-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "e587ed12-2db4-4c8a-afab-90f2add828a0")
+			(uuid "9c76c0d7-5832-4f63-9415-ff1995d2ddcb")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 330)
@@ -6534,7 +6532,7 @@
 			(net 21 "Net-(D17-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "e587ed12-2db4-4c8a-afab-90f2add828a0")
+			(uuid "8b117e68-34e0-4fb7-a795-8e8655e176bc")
 		)
 		(pad "2" smd rect
 			(at 8.275 3.75 330)
@@ -6543,7 +6541,7 @@
 			(net 21 "Net-(D17-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "e587ed12-2db4-4c8a-afab-90f2add828a0")
+			(uuid "01acd804-ecc3-4042-9c55-46f7c4577e6a")
 		)
 		(embedded_fonts no)
 	)
@@ -7015,7 +7013,7 @@
 			(net 8 "/row_home")
 			(pinfunction "K")
 			(pintype "passive")
-			(uuid "01ef2f7e-97d1-4d34-9fbb-f12974545cc0")
+			(uuid "4db915d6-7ee1-45d7-9fd3-1224604b6ef6")
 		)
 		(pad "2" smd rect
 			(at 1.25 0 165)
@@ -7033,7 +7031,7 @@
 			(net 17 "Net-(D14-A)")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "b7a2c51c-e0cc-46ae-895b-d9e2331a13ed")
+			(uuid "6f2858a2-51f3-4ad3-849a-97674536c061")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-323.wrl"
@@ -7516,7 +7514,7 @@
 			(net 8 "/row_home")
 			(pinfunction "K")
 			(pintype "passive")
-			(uuid "198d6fe2-2ff2-408c-968d-60447eea0fb2")
+			(uuid "a0f87626-b622-4a8d-abf4-2963fe78844b")
 		)
 		(pad "2" smd rect
 			(at 1.25 0 165)
@@ -7534,7 +7532,7 @@
 			(net 10 "Net-(D8-A)")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "dd83eaea-ff1e-4740-b877-8ee6991fe395")
+			(uuid "d40b6471-80d5-41cf-b4e5-410818ab11bd")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-323.wrl"
@@ -8723,7 +8721,7 @@
 			(uuid "6289caf8-fa75-476a-94cc-57d0c65e067d")
 		)
 		(fp_line
-			(start 7 4.999999)
+			(start 7 4.999998)
 			(end 9.5 5)
 			(stroke
 				(width 0.12)
@@ -8899,7 +8897,7 @@
 			(net 38 "/col_pinky")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "3bbda11e-74ba-4351-a532-9275c09df1df")
+			(uuid "79a81d21-91cb-4533-9c46-6439c163afca")
 		)
 		(pad "1" smd rect
 			(at 3.275 5.95 345)
@@ -8908,7 +8906,7 @@
 			(net 38 "/col_pinky")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "3bbda11e-74ba-4351-a532-9275c09df1df")
+			(uuid "79662d2f-a7cf-4098-9480-36034f194d7f")
 		)
 		(pad "2" smd rect
 			(at -8.275 3.75 345)
@@ -8928,7 +8926,7 @@
 			(net 4 "Net-(D3-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "9a901801-ccd2-45ab-852b-2ef8ebc1a263")
+			(uuid "41b1532d-dc4f-49bd-b09f-644e30f68ef4")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 345)
@@ -8939,7 +8937,7 @@
 			(net 4 "Net-(D3-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "9a901801-ccd2-45ab-852b-2ef8ebc1a263")
+			(uuid "1c1712f2-3d83-48a1-b187-99dc9f48434b")
 		)
 		(pad "2" smd rect
 			(at 8.275 3.75 345)
@@ -8948,7 +8946,7 @@
 			(net 4 "Net-(D3-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "9a901801-ccd2-45ab-852b-2ef8ebc1a263")
+			(uuid "dc92363d-1f20-4d69-a05f-8eeb0ff13417")
 		)
 		(embedded_fonts no)
 	)
@@ -9921,7 +9919,7 @@
 			(uuid "41320107-dcd3-4a67-910b-3cea8fb2fcf7")
 		)
 		(fp_line
-			(start 7 4.999999)
+			(start 7 4.999998)
 			(end 9.5 5)
 			(stroke
 				(width 0.12)
@@ -10097,7 +10095,7 @@
 			(net 39 "/col_ring")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "651f26ae-2a22-498e-bc8e-278d8c9732c8")
+			(uuid "4a4b65a5-8e14-4841-a116-76648a47fa6c")
 		)
 		(pad "1" smd rect
 			(at 3.275 5.95 345)
@@ -10106,7 +10104,7 @@
 			(net 39 "/col_ring")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "651f26ae-2a22-498e-bc8e-278d8c9732c8")
+			(uuid "635858ca-8819-4515-bee6-c82e222a2319")
 		)
 		(pad "2" smd rect
 			(at -8.275 3.75 345)
@@ -10126,7 +10124,7 @@
 			(net 7 "Net-(D6-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "e63e1186-420d-4c28-83bc-f38453acc9e9")
+			(uuid "1178d3cd-c425-4ba5-8733-e18e98d08a90")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 345)
@@ -10137,7 +10135,7 @@
 			(net 7 "Net-(D6-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "e63e1186-420d-4c28-83bc-f38453acc9e9")
+			(uuid "c62dfd88-a6b8-4f67-9663-edf761ad2ec6")
 		)
 		(pad "2" smd rect
 			(at 8.275 3.75 345)
@@ -10146,7 +10144,7 @@
 			(net 7 "Net-(D6-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "e63e1186-420d-4c28-83bc-f38453acc9e9")
+			(uuid "112eaf28-0127-40f3-a5da-1b431111f945")
 		)
 		(embedded_fonts no)
 	)
@@ -10618,7 +10616,7 @@
 			(net 13 "/row_bottom")
 			(pinfunction "K")
 			(pintype "passive")
-			(uuid "4872359f-caa6-413b-994c-7a718dd67ebf")
+			(uuid "5f136360-2382-4f58-9c56-df0414d9ac3d")
 		)
 		(pad "2" smd rect
 			(at 1.25 0 165)
@@ -10636,7 +10634,7 @@
 			(net 12 "Net-(D10-A)")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "cee2f464-b531-4e8a-a7da-38359d45ecb8")
+			(uuid "0e738c94-b7b8-4345-b680-481748b0627a")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-323.wrl"
@@ -11398,7 +11396,7 @@
 			(net 40 "/col_middle")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "a6aa95e9-b42d-44c1-8622-805c0eef05a9")
+			(uuid "66e5537a-d115-4cd0-babe-725a2c710a6f")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 165)
@@ -11420,7 +11418,7 @@
 			(net 20 "Net-(D16-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "249dfff6-febd-4c61-bc3b-f601e11fc8ad")
+			(uuid "e3d9f46c-c0d7-4684-95b0-7b6da7a68419")
 		)
 		(embedded_fonts no)
 	)
@@ -12393,7 +12391,7 @@
 			(uuid "819c7e18-6c49-4860-8c34-8333f2a93b1f")
 		)
 		(fp_line
-			(start 7 4.999999)
+			(start 7 4.999998)
 			(end 9.5 5)
 			(stroke
 				(width 0.12)
@@ -12569,7 +12567,7 @@
 			(net 42 "/col_inner")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "ca3dfb34-e902-4641-830b-75d40649da60")
+			(uuid "262273eb-da7c-439b-b0bb-faae69beda73")
 		)
 		(pad "1" smd rect
 			(at 3.275 5.95 345)
@@ -12578,7 +12576,7 @@
 			(net 42 "/col_inner")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "ca3dfb34-e902-4641-830b-75d40649da60")
+			(uuid "c36ed7c8-5338-4023-9c22-f10c92d61f8e")
 		)
 		(pad "2" smd rect
 			(at -8.275 3.75 345)
@@ -12598,7 +12596,7 @@
 			(net 16 "Net-(D13-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "641df742-6a86-41b0-95a2-22e0f24e09f9")
+			(uuid "da8e05e6-a0d6-41d6-ac92-4dadf9df2386")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 345)
@@ -12609,7 +12607,7 @@
 			(net 16 "Net-(D13-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "641df742-6a86-41b0-95a2-22e0f24e09f9")
+			(uuid "c9af23e7-99a9-4f69-a7e9-a6ebd47980ab")
 		)
 		(pad "2" smd rect
 			(at 8.275 3.75 345)
@@ -12618,7 +12616,7 @@
 			(net 16 "Net-(D13-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "641df742-6a86-41b0-95a2-22e0f24e09f9")
+			(uuid "45b4fe85-aa7d-4b3b-8992-14ff70019a81")
 		)
 		(embedded_fonts no)
 	)
@@ -13591,7 +13589,7 @@
 			(uuid "44989994-5cfd-4674-a277-0ec8f8980044")
 		)
 		(fp_line
-			(start 7 4.999999)
+			(start 7 4.999998)
 			(end 9.5 5)
 			(stroke
 				(width 0.12)
@@ -13767,7 +13765,7 @@
 			(net 40 "/col_middle")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "fa1f54d6-ad78-44f1-885b-dd4d96eb664e")
+			(uuid "2eddd4f9-bad1-4846-884c-d42e85a0e505")
 		)
 		(pad "1" smd rect
 			(at 3.275 5.95 345)
@@ -13776,7 +13774,7 @@
 			(net 40 "/col_middle")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "fa1f54d6-ad78-44f1-885b-dd4d96eb664e")
+			(uuid "ba518e45-8455-4048-9104-cbd23029caee")
 		)
 		(pad "2" smd rect
 			(at -8.275 3.75 345)
@@ -13796,7 +13794,7 @@
 			(net 9 "Net-(D7-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "d49aa8d1-e96d-4582-bf0d-ff454f745a6b")
+			(uuid "4433de6d-a2eb-4e2c-be27-303ba2d336ed")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 345)
@@ -13807,7 +13805,7 @@
 			(net 9 "Net-(D7-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "d49aa8d1-e96d-4582-bf0d-ff454f745a6b")
+			(uuid "22f3c4f7-dc5c-44a7-96d4-9d38012cf0e1")
 		)
 		(pad "2" smd rect
 			(at 8.275 3.75 345)
@@ -13816,7 +13814,7 @@
 			(net 9 "Net-(D7-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "d49aa8d1-e96d-4582-bf0d-ff454f745a6b")
+			(uuid "73868306-558a-40d1-ad59-a078414981a2")
 		)
 		(embedded_fonts no)
 	)
@@ -14288,7 +14286,7 @@
 			(net 2 "/row_top")
 			(pinfunction "K")
 			(pintype "passive")
-			(uuid "62c7975b-8333-47d5-a6e3-24b9582bffe3")
+			(uuid "579be133-d708-4c46-9e36-affa8bcd2119")
 		)
 		(pad "2" smd rect
 			(at 1.25 0 165)
@@ -14306,7 +14304,7 @@
 			(net 18 "Net-(D15-A)")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "642fc1dd-d887-4411-970b-a337891d023f")
+			(uuid "43d3c203-d964-44fe-a12e-4c06e4587378")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-323.wrl"
@@ -14994,7 +14992,7 @@
 			(net 19 "/row_thumb")
 			(pinfunction "K")
 			(pintype "passive")
-			(uuid "577717b8-83a9-4cab-8b2a-5838be88151a")
+			(uuid "57921b45-daac-4560-9f8f-c901781b5b14")
 		)
 		(pad "2" smd rect
 			(at 1.25 0 165)
@@ -15012,7 +15010,7 @@
 			(net 20 "Net-(D16-A)")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "edfdba0c-c4e5-415d-be1f-c7065cadf6d7")
+			(uuid "839ca14f-0028-41f5-8d48-a8c2d0b35548")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-323.wrl"
@@ -15996,7 +15994,7 @@
 			(uuid "76b51e1f-0350-414e-8324-6d129a7b5e1d")
 		)
 		(fp_line
-			(start 7 4.999999)
+			(start 7 4.999998)
 			(end 9.5 5)
 			(stroke
 				(width 0.12)
@@ -16172,7 +16170,7 @@
 			(net 41 "/col_index")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "7dd74a89-523c-437d-af71-7ee8941d3283")
+			(uuid "bda72fbf-e83e-409d-b1b9-be8831533a9e")
 		)
 		(pad "1" smd rect
 			(at 3.275 5.95 345)
@@ -16181,7 +16179,7 @@
 			(net 41 "/col_index")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "7dd74a89-523c-437d-af71-7ee8941d3283")
+			(uuid "82df251b-0566-4fc1-8531-a6bf4b2fcbed")
 		)
 		(pad "2" smd rect
 			(at -8.275 3.75 345)
@@ -16201,7 +16199,7 @@
 			(net 12 "Net-(D10-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "0cd5d410-1654-4c67-936f-66374a9a87a2")
+			(uuid "d8c3f9b2-e8b9-45f7-8381-ca2c93548e52")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 345)
@@ -16212,7 +16210,7 @@
 			(net 12 "Net-(D10-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "0cd5d410-1654-4c67-936f-66374a9a87a2")
+			(uuid "b2d94c55-a914-45d7-b0ac-e553895a896b")
 		)
 		(pad "2" smd rect
 			(at 8.275 3.75 345)
@@ -16221,7 +16219,7 @@
 			(net 12 "Net-(D10-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "0cd5d410-1654-4c67-936f-66374a9a87a2")
+			(uuid "90c6b2dc-b5fb-4eb8-83e1-1a60277dc585")
 		)
 		(embedded_fonts no)
 	)
@@ -17370,7 +17368,7 @@
 			(net 42 "/col_inner")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "d7bbfd8b-cedb-4576-93bc-bf0c64e2c481")
+			(uuid "a514e297-aabe-4ff5-8a15-f5b8aa9c88bb")
 		)
 		(pad "1" smd rect
 			(at 3.275 5.95 315)
@@ -17379,7 +17377,7 @@
 			(net 42 "/col_inner")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "d7bbfd8b-cedb-4576-93bc-bf0c64e2c481")
+			(uuid "66280d79-3f5a-4869-af07-d0a8bd52a5b3")
 		)
 		(pad "2" smd rect
 			(at -8.275 3.75 315)
@@ -17399,7 +17397,7 @@
 			(net 22 "Net-(D18-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "9c36b3d9-0d12-4322-af17-5474a41342c6")
+			(uuid "424ff836-c73a-4ed1-ae39-d8d976b0f795")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 315)
@@ -17410,7 +17408,7 @@
 			(net 22 "Net-(D18-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "9c36b3d9-0d12-4322-af17-5474a41342c6")
+			(uuid "046bc6bf-844a-4855-af74-339105709ae5")
 		)
 		(pad "2" smd rect
 			(at 8.275 3.75 315)
@@ -17419,7 +17417,7 @@
 			(net 22 "Net-(D18-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "9c36b3d9-0d12-4322-af17-5474a41342c6")
+			(uuid "8b4f163e-8542-4f60-8fe2-96bd1e3ecd77")
 		)
 		(embedded_fonts no)
 	)
@@ -18392,7 +18390,7 @@
 			(uuid "0b187652-5653-403a-ba7c-2f9e868da1ea")
 		)
 		(fp_line
-			(start 7 4.999999)
+			(start 7 4.999998)
 			(end 9.5 5)
 			(stroke
 				(width 0.12)
@@ -18568,7 +18566,7 @@
 			(net 41 "/col_index")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "086310a6-3314-486a-88e2-0db1d60c3e80")
+			(uuid "ac4a0450-932a-47e3-85e4-e8d1746cb56c")
 		)
 		(pad "1" smd rect
 			(at 3.275 5.95 345)
@@ -18577,7 +18575,7 @@
 			(net 41 "/col_index")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "086310a6-3314-486a-88e2-0db1d60c3e80")
+			(uuid "51615af4-0789-468d-b7bc-d66941b937ef")
 		)
 		(pad "2" smd rect
 			(at -8.275 3.75 345)
@@ -18597,7 +18595,7 @@
 			(net 15 "Net-(D12-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "28b26de0-4a9e-4f87-946f-3bd10872a43a")
+			(uuid "77c8e68e-dff6-4571-b740-e3b50b1f51f7")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 345)
@@ -18608,7 +18606,7 @@
 			(net 15 "Net-(D12-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "28b26de0-4a9e-4f87-946f-3bd10872a43a")
+			(uuid "3db844bc-2103-40b0-a2d2-ccd568de93a7")
 		)
 		(pad "2" smd rect
 			(at 8.275 3.75 345)
@@ -18617,7 +18615,7 @@
 			(net 15 "Net-(D12-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "28b26de0-4a9e-4f87-946f-3bd10872a43a")
+			(uuid "05bad52a-007e-472a-a8ab-ab5fbb43b998")
 		)
 		(embedded_fonts no)
 	)
@@ -19294,7 +19292,7 @@
 			(net 13 "/row_bottom")
 			(pinfunction "K")
 			(pintype "passive")
-			(uuid "fcc37588-68a0-4701-9a1b-14fa9f8ed6b2")
+			(uuid "7e579c59-a1a5-4c2c-b102-fe1e941c28f4")
 		)
 		(pad "2" smd rect
 			(at 1.25 0 165)
@@ -19312,7 +19310,7 @@
 			(net 5 "Net-(D4-A)")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "f5d18d50-9157-4b23-8631-ced431622480")
+			(uuid "617edfcf-eebc-41d2-90cd-125c3f8ef377")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-323.wrl"
@@ -19934,7 +19932,7 @@
 			(net 19 "/row_thumb")
 			(pinfunction "K")
 			(pintype "passive")
-			(uuid "9dbc29bf-a5cf-4ef1-8be9-9d556872e6a4")
+			(uuid "081ccfc3-6d6b-4758-8871-a12cd3fb8cdd")
 		)
 		(pad "2" smd rect
 			(at 1.249999 0 135)
@@ -19952,7 +19950,7 @@
 			(net 22 "Net-(D18-A)")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "f3494d8f-5aa0-4097-87fb-7b1298d285b7")
+			(uuid "26e95441-7881-409d-91e1-176b217c07e8")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-323.wrl"
@@ -20936,7 +20934,7 @@
 			(uuid "d49dc2c5-cc88-4c50-9697-a7951f9f6d05")
 		)
 		(fp_line
-			(start 7 4.999999)
+			(start 7 4.999998)
 			(end 9.5 5)
 			(stroke
 				(width 0.12)
@@ -21112,7 +21110,7 @@
 			(net 40 "/col_middle")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "4b2a9ba7-cbab-4e37-8471-038ad2a8d073")
+			(uuid "de4e5cd3-f19a-4f9b-a37e-a8df69a9dd1f")
 		)
 		(pad "1" smd rect
 			(at 3.275 5.95 345)
@@ -21121,7 +21119,7 @@
 			(net 40 "/col_middle")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "4b2a9ba7-cbab-4e37-8471-038ad2a8d073")
+			(uuid "76764a55-0798-4dae-8aac-2114e47d2153")
 		)
 		(pad "2" smd rect
 			(at -8.275 3.75 345)
@@ -21141,7 +21139,7 @@
 			(net 10 "Net-(D8-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "f786faf8-1a7c-474c-bd7d-3f57358b9477")
+			(uuid "2eaa37c8-677e-4455-934d-09589c8c1716")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 345)
@@ -21152,7 +21150,7 @@
 			(net 10 "Net-(D8-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "f786faf8-1a7c-474c-bd7d-3f57358b9477")
+			(uuid "235c6d58-b42a-4cec-be3a-87f7e2ae4160")
 		)
 		(pad "2" smd rect
 			(at 8.275 3.75 345)
@@ -21161,7 +21159,7 @@
 			(net 10 "Net-(D8-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "f786faf8-1a7c-474c-bd7d-3f57358b9477")
+			(uuid "e4391360-2fc4-4ffa-8f74-5e96fa2ebd4d")
 		)
 		(embedded_fonts no)
 	)
@@ -21621,7 +21619,7 @@
 			(net 42 "/col_inner")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "1128b6a9-272e-41da-a500-52023b3a8031")
+			(uuid "13be7d61-d73b-402a-97bd-08d10e217b17")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 165)
@@ -21643,7 +21641,7 @@
 			(net 17 "Net-(D14-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "ac348485-fe64-4fb4-a47b-4ad8d87e443d")
+			(uuid "32e8d4e1-fbc2-4d14-afdd-249a3f5ef45a")
 		)
 		(embedded_fonts no)
 	)
@@ -22115,7 +22113,7 @@
 			(net 8 "/row_home")
 			(pinfunction "K")
 			(pintype "passive")
-			(uuid "eb6f51cc-d043-467c-ba6d-12c54280c9b6")
+			(uuid "610d3081-a2f4-4c68-ac95-661462710fe2")
 		)
 		(pad "2" smd rect
 			(at 1.25 0 165)
@@ -22133,7 +22131,7 @@
 			(net 3 "Net-(D2-A)")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "32a6e180-d2fb-4db2-8016-ef2125f13518")
+			(uuid "de64f692-5723-4db7-964c-ba7c48def79f")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-323.wrl"
@@ -22616,7 +22614,7 @@
 			(net 2 "/row_top")
 			(pinfunction "K")
 			(pintype "passive")
-			(uuid "fc22b398-430b-42d9-958b-d6c09519e2bb")
+			(uuid "ebd12547-c10d-4121-81f5-fec6c6f121ea")
 		)
 		(pad "2" smd rect
 			(at 1.25 0 165)
@@ -22634,7 +22632,7 @@
 			(net 15 "Net-(D12-A)")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "3f53c04a-8d1b-4fe8-8e5d-4725fd0c2ff9")
+			(uuid "d0ac64d6-823c-452c-90a9-4c66ccbb820d")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-323.wrl"
@@ -23117,7 +23115,7 @@
 			(net 13 "/row_bottom")
 			(pinfunction "K")
 			(pintype "passive")
-			(uuid "807c5b26-e5c1-4fcf-a2de-291ae6df8601")
+			(uuid "40b66f35-654e-4b4e-a8d5-1e923e724711")
 		)
 		(pad "2" smd rect
 			(at 1.25 0 165)
@@ -23135,7 +23133,7 @@
 			(net 9 "Net-(D7-A)")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "4309db06-192e-4a93-87b9-9fa126de4580")
+			(uuid "37beaa6f-f23a-4dc1-ae37-778bf05b7ffb")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-323.wrl"
@@ -23329,7 +23327,7 @@
 			(drill 1)
 			(layers "*.Cu" "F.Mask")
 			(remove_unused_layers no)
-			(net 78 "unconnected-(U1-P0.06-Pad1)")
+			(net 77 "/PS2_Data")
 			(pinfunction "P0.06")
 			(pintype "bidirectional")
 			(uuid "f7b43bb8-fb7e-4255-a94c-fd87fe5f0891")
@@ -23340,7 +23338,7 @@
 			(drill 1)
 			(layers "*.Cu" "F.Mask")
 			(remove_unused_layers no)
-			(net 77 "unconnected-(U1-P0.08-Pad2)")
+			(net 78 "/PS2_CLK")
 			(pinfunction "P0.08")
 			(pintype "bidirectional")
 			(uuid "1492e6c0-6063-4a5c-b055-ea68ef0905ca")
@@ -23352,7 +23350,7 @@
 			(layers "*.Cu" "F.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.25)
-			(net 50 "unconnected-(U1-GND-Pad3)")
+			(net 74 "GND")
 			(pinfunction "GND")
 			(pintype "power_out")
 			(uuid "fa4ccd87-99db-4fee-ac64-10b378f96ed0")
@@ -23364,7 +23362,7 @@
 			(layers "*.Cu" "F.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.25)
-			(net 48 "unconnected-(U1-GND-Pad4)")
+			(net 74 "GND")
 			(pinfunction "GND")
 			(pintype "power_out")
 			(uuid "de2a5b51-a51b-40b6-a9ef-1a3fc135dd8f")
@@ -23375,7 +23373,7 @@
 			(drill 1)
 			(layers "*.Cu" "F.Mask")
 			(remove_unused_layers no)
-			(net 79 "/PS2_Data")
+			(net 30 "/SDA_Right")
 			(pinfunction "P0.17")
 			(pintype "bidirectional")
 			(uuid "d1e147db-3160-4310-8d31-ce75654d0ff4")
@@ -23386,7 +23384,7 @@
 			(drill 1)
 			(layers "*.Cu" "F.Mask")
 			(remove_unused_layers no)
-			(net 80 "/PS2_CLK")
+			(net 29 "/SCL_Right")
 			(pinfunction "P0.20")
 			(pintype "bidirectional")
 			(uuid "283ddaa7-12a4-4dcb-9f01-bdcfd8d32f6f")
@@ -23397,7 +23395,7 @@
 			(drill 1)
 			(layers "*.Cu" "F.Mask")
 			(remove_unused_layers no)
-			(net 71 "/MOSI")
+			(net 72 "/SCK")
 			(pinfunction "P0.22")
 			(pintype "bidirectional")
 			(uuid "3f5fac2b-d45e-443d-8c48-a7919d2db461")
@@ -23408,7 +23406,7 @@
 			(drill 1)
 			(layers "*.Cu" "F.Mask")
 			(remove_unused_layers no)
-			(net 72 "/SCK")
+			(net 75 "unconnected-(U1-P0.24-Pad8)")
 			(pinfunction "P0.24")
 			(pintype "bidirectional")
 			(uuid "64f19af2-9480-45d6-8fa7-7bbb84aa8615")
@@ -23419,7 +23417,7 @@
 			(drill 1)
 			(layers "*.Cu" "F.Mask")
 			(remove_unused_layers no)
-			(net 70 "/CS")
+			(net 71 "/MOSI")
 			(pinfunction "P1.00")
 			(pintype "bidirectional")
 			(uuid "377d6bd7-c324-46c5-9bf7-e149480b74d9")
@@ -23430,7 +23428,7 @@
 			(drill 1)
 			(layers "*.Cu" "F.Mask")
 			(remove_unused_layers no)
-			(net 29 "/SCL_Right")
+			(net 70 "/CS")
 			(pinfunction "P0.11")
 			(pintype "bidirectional")
 			(uuid "ad5a51ff-6aff-413e-b2d1-a5a60d50725d")
@@ -23441,7 +23439,7 @@
 			(drill 1)
 			(layers "*.Cu" "F.Mask")
 			(remove_unused_layers no)
-			(net 30 "/SDA_Right")
+			(net 50 "unconnected-(U1-P1.04-LF-Pad11)")
 			(pinfunction "P1.04-LF")
 			(pintype "bidirectional")
 			(uuid "03e1af28-6fc8-4f85-85b8-292be8711f5a")
@@ -23465,7 +23463,7 @@
 			)
 			(layers "*.Cu" "F.Mask")
 			(remove_unused_layers no)
-			(net 45 "unconnected-(U1-BAT+-Pad13)")
+			(net 48 "/BAT+")
 			(pinfunction "BAT+")
 			(pintype "power_out")
 			(uuid "89f036c4-3276-4e25-a859-661e82de78bc")
@@ -23488,7 +23486,7 @@
 			(drill 1)
 			(layers "*.Cu" "F.Mask")
 			(remove_unused_layers no)
-			(net 75 "Net-(U1-RST)")
+			(net 45 "/RESET")
 			(pinfunction "RST")
 			(pintype "bidirectional")
 			(uuid "ccd63097-f4b8-4bd2-aaa6-cbd2454ef464")
@@ -23643,7 +23641,7 @@
 			(drill 1)
 			(layers "*.Cu" "F.Mask")
 			(remove_unused_layers no)
-			(net 76 "Net-(SW2-A)")
+			(net 76 "unconnected-(U1-BAT+-Pad29)")
 			(pinfunction "BAT+")
 			(pintype "power_out")
 			(uuid "70be279f-b966-4062-adc8-59375cc34095")
@@ -25377,7 +25375,7 @@
 			(uuid "cf888a58-f343-4976-a10e-eb2b0a3e5354")
 		)
 		(fp_line
-			(start 7 4.999999)
+			(start 7 4.999998)
 			(end 9.5 5)
 			(stroke
 				(width 0.12)
@@ -25553,7 +25551,7 @@
 			(net 39 "/col_ring")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "0daba057-9e68-43e7-9d8e-13f8cc092957")
+			(uuid "2968846c-b01b-4934-8a82-2f9345d2b70c")
 		)
 		(pad "1" smd rect
 			(at 3.275 5.95 345)
@@ -25562,7 +25560,7 @@
 			(net 39 "/col_ring")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "0daba057-9e68-43e7-9d8e-13f8cc092957")
+			(uuid "53caf1a9-80d8-4bd9-a145-0e075778d514")
 		)
 		(pad "2" smd rect
 			(at -8.275 3.75 345)
@@ -25582,7 +25580,7 @@
 			(net 6 "Net-(D5-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "b2eb25c0-97dd-4c9f-9670-533b41df3a1d")
+			(uuid "103d7d36-045b-45b2-877e-6ec6edb09737")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 345)
@@ -25593,7 +25591,7 @@
 			(net 6 "Net-(D5-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "b2eb25c0-97dd-4c9f-9670-533b41df3a1d")
+			(uuid "4e1f10f2-3020-49f0-9a21-a3e193f86bf3")
 		)
 		(pad "2" smd rect
 			(at 8.275 3.75 345)
@@ -25602,7 +25600,7 @@
 			(net 6 "Net-(D5-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "b2eb25c0-97dd-4c9f-9670-533b41df3a1d")
+			(uuid "b028db5d-69e9-40c0-8043-03fb0ac07498")
 		)
 		(embedded_fonts no)
 	)
@@ -26455,7 +26453,7 @@
 			(uuid "2ed16833-61a8-40fb-b092-859e34aea5f5")
 		)
 		(fp_line
-			(start 7 4.999999)
+			(start 7 4.999998)
 			(end 9.5 5)
 			(stroke
 				(width 0.12)
@@ -26751,7 +26749,7 @@
 			(net 41 "/col_index")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "ce0bcc65-cf36-4657-a02f-618394e08452")
+			(uuid "0fcc201b-5978-4f99-bd03-05cd53849858")
 		)
 		(pad "1" smd rect
 			(at 3.275 5.95 165)
@@ -26760,7 +26758,7 @@
 			(net 41 "/col_index")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "ce0bcc65-cf36-4657-a02f-618394e08452")
+			(uuid "a5669de0-8106-4bb6-9476-e49315bf6b41")
 		)
 		(pad "2" smd rect
 			(at -8.275 3.75 165)
@@ -26780,7 +26778,7 @@
 			(net 14 "Net-(D11-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "949e7d7b-6d3b-4f8c-8675-07a1acc5d1c2")
+			(uuid "82e67ceb-00de-4db3-aa85-5b502e3caae5")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 165)
@@ -26791,7 +26789,7 @@
 			(net 14 "Net-(D11-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "949e7d7b-6d3b-4f8c-8675-07a1acc5d1c2")
+			(uuid "7687d9dc-f3ed-4229-acc6-d9aaa7cbbf63")
 		)
 		(pad "2" smd rect
 			(at 8.275 3.75 165)
@@ -26800,7 +26798,7 @@
 			(net 14 "Net-(D11-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "949e7d7b-6d3b-4f8c-8675-07a1acc5d1c2")
+			(uuid "7a2d7943-c2a4-4ba0-8081-474ca0c946fe")
 		)
 		(embedded_fonts no)
 	)
@@ -27112,7 +27110,7 @@
 			(size 2.3 1.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 79 "/PS2_Data")
+			(net 77 "/PS2_Data")
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(uuid "21e38697-3fe3-4296-b5c5-66f8c005d6da")
@@ -27132,7 +27130,7 @@
 			(size 2.3 1.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 80 "/PS2_CLK")
+			(net 78 "/PS2_CLK")
 			(pinfunction "Pin_3")
 			(pintype "passive")
 			(uuid "7d39a1b0-a250-4652-b9a2-5e81501f1d95")
@@ -27627,7 +27625,7 @@
 			(net 19 "/row_thumb")
 			(pinfunction "K")
 			(pintype "passive")
-			(uuid "d0d0f186-c6ae-4dad-a1b5-62522621bd98")
+			(uuid "3ca8fd9f-471e-45b0-8536-c7c43bdc2f54")
 		)
 		(pad "2" smd rect
 			(at 1.25 0 150)
@@ -27645,7 +27643,7 @@
 			(net 21 "Net-(D17-A)")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "dca8938b-5126-47db-9f3b-8d1f06cc90f8")
+			(uuid "fff2eb70-b5fe-4f64-9fdc-0018fc9fdb0f")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-323.wrl"
@@ -28128,7 +28126,7 @@
 			(net 8 "/row_home")
 			(pinfunction "K")
 			(pintype "passive")
-			(uuid "84c7c92f-0a44-4eee-8c1f-e7fd0231266a")
+			(uuid "90808cdb-defd-4248-ae72-df1ffb83bca2")
 		)
 		(pad "2" smd rect
 			(at 1.25 0 165)
@@ -28146,7 +28144,7 @@
 			(net 14 "Net-(D11-A)")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "e33b1fe7-5bc0-4b7a-b35a-e2be2e8c12ac")
+			(uuid "e913576e-1940-4a14-b7cb-d9bcf29f7f1a")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-323.wrl"
@@ -29678,7 +29676,7 @@
 			(uuid "bbd8c585-bb99-458c-a079-9bb7ad994f81")
 		)
 		(fp_line
-			(start 7 4.999999)
+			(start 7 4.999998)
 			(end 9.5 5)
 			(stroke
 				(width 0.12)
@@ -29854,7 +29852,7 @@
 			(net 42 "/col_inner")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "de08ec7d-d782-40cc-9f15-0b85e59966fc")
+			(uuid "810e8d59-98ce-4c78-adc1-ab267bc0119b")
 		)
 		(pad "1" smd rect
 			(at 3.275 5.95 345)
@@ -29863,7 +29861,7 @@
 			(net 42 "/col_inner")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "de08ec7d-d782-40cc-9f15-0b85e59966fc")
+			(uuid "6e2e25eb-2732-4c75-b4e3-72fd697ca730")
 		)
 		(pad "2" smd rect
 			(at -8.275 3.75 345)
@@ -29883,7 +29881,7 @@
 			(net 18 "Net-(D15-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "24591503-7081-4162-b8a9-e5ab83e4b49d")
+			(uuid "9ef257f0-03b5-402c-8345-68e1ca214e2d")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 345)
@@ -29894,7 +29892,7 @@
 			(net 18 "Net-(D15-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "24591503-7081-4162-b8a9-e5ab83e4b49d")
+			(uuid "358ac2cc-f669-4bb4-9b17-0081c21e4f0f")
 		)
 		(pad "2" smd rect
 			(at 8.275 3.75 345)
@@ -29903,7 +29901,7 @@
 			(net 18 "Net-(D15-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "24591503-7081-4162-b8a9-e5ab83e4b49d")
+			(uuid "7c7a48c0-7c5e-4620-901c-beb87989ab3b")
 		)
 		(embedded_fonts no)
 	)
@@ -30375,7 +30373,7 @@
 			(net 13 "/row_bottom")
 			(pinfunction "K")
 			(pintype "passive")
-			(uuid "80f85cc6-8a22-40cc-be75-fefcb199b848")
+			(uuid "72f34a58-eb4f-44d7-a688-165282a692fb")
 		)
 		(pad "2" smd rect
 			(at 1.25 0 165)
@@ -30393,7 +30391,7 @@
 			(net 1 "Net-(D1-A)")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "7f30b6b6-56e6-41ee-b095-3eed64ff3584")
+			(uuid "41a503cc-d042-4cde-89eb-0c3d65aed719")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-323.wrl"
@@ -30876,7 +30874,7 @@
 			(net 2 "/row_top")
 			(pinfunction "K")
 			(pintype "passive")
-			(uuid "5083cd11-d789-43ba-ae42-52f88b293124")
+			(uuid "359fe334-ed10-44ae-950f-2dbf4edd7ee9")
 		)
 		(pad "2" smd rect
 			(at 1.25 0 165)
@@ -30894,7 +30892,7 @@
 			(net 4 "Net-(D3-A)")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "0b5744c4-bdff-45bd-9557-ed3522b627a6")
+			(uuid "7e20d89c-75db-438e-9eaf-39e8b52ab308")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-323.wrl"
@@ -31878,7 +31876,7 @@
 			(uuid "1c3631ce-8f34-47c8-9654-9a220298967e")
 		)
 		(fp_line
-			(start 7 4.999999)
+			(start 7 4.999998)
 			(end 9.5 5)
 			(stroke
 				(width 0.12)
@@ -32054,7 +32052,7 @@
 			(net 40 "/col_middle")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "3e3e4909-66bf-4316-b941-71805017fb84")
+			(uuid "28e44e4e-d43e-4185-87f8-e5123453841a")
 		)
 		(pad "1" smd rect
 			(at 3.275 5.95 345)
@@ -32063,7 +32061,7 @@
 			(net 40 "/col_middle")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "3e3e4909-66bf-4316-b941-71805017fb84")
+			(uuid "51ce3edd-dc79-4cd3-a421-d70972c40acd")
 		)
 		(pad "2" smd rect
 			(at -8.275 3.75 345)
@@ -32083,7 +32081,7 @@
 			(net 11 "Net-(D9-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "29b201fe-4575-4e62-a437-9f20c12409cb")
+			(uuid "0ccddbc5-bd62-4d8a-9ac1-50eed1fce8fa")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 345)
@@ -32094,7 +32092,7 @@
 			(net 11 "Net-(D9-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "29b201fe-4575-4e62-a437-9f20c12409cb")
+			(uuid "9d9ce8da-d593-4df8-a53f-49e72a79a6a6")
 		)
 		(pad "2" smd rect
 			(at 8.275 3.75 345)
@@ -32103,7 +32101,7 @@
 			(net 11 "Net-(D9-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "29b201fe-4575-4e62-a437-9f20c12409cb")
+			(uuid "efa55df3-09c7-4b95-ae39-f4054c279773")
 		)
 		(embedded_fonts no)
 	)
@@ -33076,7 +33074,7 @@
 			(uuid "dcabd646-4094-4ec2-88d9-f12d06b0331e")
 		)
 		(fp_line
-			(start 7 4.999999)
+			(start 7 4.999998)
 			(end 9.5 5)
 			(stroke
 				(width 0.12)
@@ -33252,7 +33250,7 @@
 			(net 39 "/col_ring")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "3cd64ebb-e417-4c52-9fdc-3669ea5d403f")
+			(uuid "2cda8d68-7cc2-48b7-b896-e7cf279022bf")
 		)
 		(pad "1" smd rect
 			(at 3.275 5.95 345)
@@ -33261,7 +33259,7 @@
 			(net 39 "/col_ring")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "3cd64ebb-e417-4c52-9fdc-3669ea5d403f")
+			(uuid "b02689e7-2f61-4cde-9e45-1d27afab97ea")
 		)
 		(pad "2" smd rect
 			(at -8.275 3.75 345)
@@ -33281,7 +33279,7 @@
 			(net 5 "Net-(D4-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "88acb18b-b806-420e-b435-1f542e981c70")
+			(uuid "450e76e5-b086-46fe-94fa-505618c9a581")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 345)
@@ -33292,7 +33290,7 @@
 			(net 5 "Net-(D4-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "88acb18b-b806-420e-b435-1f542e981c70")
+			(uuid "a2190e23-a165-40b9-9b73-11601526bb18")
 		)
 		(pad "2" smd rect
 			(at 8.275 3.75 345)
@@ -33301,7 +33299,7 @@
 			(net 5 "Net-(D4-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "88acb18b-b806-420e-b435-1f542e981c70")
+			(uuid "6c48e573-35bb-4c7f-9ab9-973db1e2e6ad")
 		)
 		(embedded_fonts no)
 	)
@@ -33773,7 +33771,7 @@
 			(net 2 "/row_top")
 			(pinfunction "K")
 			(pintype "passive")
-			(uuid "bf006cd1-a0e9-4380-be7e-e47d1e0408b6")
+			(uuid "76d1bfd6-c60f-4ba0-833c-1d1673a68080")
 		)
 		(pad "2" smd rect
 			(at 1.25 0 165)
@@ -33791,7 +33789,7 @@
 			(net 11 "Net-(D9-A)")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "4b4f294d-dfa1-4dda-8a15-1e6a7de21d08")
+			(uuid "5b77d4ca-93e2-46a3-a0f7-1480b05f58d9")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-323.wrl"
@@ -34478,7 +34476,7 @@
 			(net 13 "/row_bottom")
 			(pinfunction "K")
 			(pintype "passive")
-			(uuid "5fd9a78f-65de-40b5-82c7-b9aa6b2b9989")
+			(uuid "4952e662-025c-4a9f-acff-b4ad667ec458")
 		)
 		(pad "2" smd rect
 			(at 1.25 0 165)
@@ -34496,7 +34494,7 @@
 			(net 16 "Net-(D13-A)")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "35a34106-b34c-4b97-8697-6b918acb0fc9")
+			(uuid "21d606a8-22d6-4320-bbbe-c98c72e67472")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-323.wrl"
@@ -35890,7 +35888,7 @@
 			(uuid "d3a51afe-c03d-4999-a79f-b8b97d23ff34")
 		)
 		(fp_line
-			(start 7 4.999999)
+			(start 7 4.999998)
 			(end 9.5 5)
 			(stroke
 				(width 0.12)
@@ -36066,7 +36064,7 @@
 			(net 38 "/col_pinky")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "946f5e19-f041-413a-b3b7-98eb23c8d7f8")
+			(uuid "d0a59294-f326-4ca6-b40b-6df841cf1c16")
 		)
 		(pad "1" smd rect
 			(at 3.275 5.95 345)
@@ -36075,7 +36073,7 @@
 			(net 38 "/col_pinky")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "946f5e19-f041-413a-b3b7-98eb23c8d7f8")
+			(uuid "5ff12ba5-5b8c-4bfa-9cfe-90deaaec517f")
 		)
 		(pad "2" smd rect
 			(at -8.275 3.75 345)
@@ -36095,7 +36093,7 @@
 			(net 3 "Net-(D2-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "3c7c0dc9-d0ea-494f-a59c-5a45ef2cc61e")
+			(uuid "5d952005-91e2-4a83-9bec-5f7f2c465523")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 345)
@@ -36106,7 +36104,7 @@
 			(net 3 "Net-(D2-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "3c7c0dc9-d0ea-494f-a59c-5a45ef2cc61e")
+			(uuid "48298f82-126d-47c2-bb91-e6f680034e00")
 		)
 		(pad "2" smd rect
 			(at 8.275 3.75 345)
@@ -36115,7 +36113,7 @@
 			(net 3 "Net-(D2-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "3c7c0dc9-d0ea-494f-a59c-5a45ef2cc61e")
+			(uuid "e5328f5f-b2e2-4a1a-a0bd-21b60684b2af")
 		)
 		(embedded_fonts no)
 	)
@@ -36587,7 +36585,7 @@
 			(net 8 "/row_home")
 			(pinfunction "K")
 			(pintype "passive")
-			(uuid "4ae6d0f0-a754-4f44-909b-efcdc63f4f77")
+			(uuid "8fd64ef9-a129-4ab7-9b3a-e219deddc566")
 		)
 		(pad "2" smd rect
 			(at 1.25 0 165)
@@ -36605,7 +36603,7 @@
 			(net 6 "Net-(D5-A)")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "5c97745c-7a92-4f51-b92c-220fa92be122")
+			(uuid "c5ce1bf7-b4f3-4df9-b826-0cba5e30bf55")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-323.wrl"
@@ -37088,7 +37086,7 @@
 			(net 2 "/row_top")
 			(pinfunction "K")
 			(pintype "passive")
-			(uuid "fc8a805e-40b7-488a-b00a-6a0955456a73")
+			(uuid "e77fbd1d-167b-41a7-a9ff-578358a70ac8")
 		)
 		(pad "2" smd rect
 			(at 1.25 0 165)
@@ -37106,7 +37104,7 @@
 			(net 7 "Net-(D6-A)")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "d4d54cbc-97ec-4f85-ae95-5af191818fdd")
+			(uuid "3763585e-6cc5-4053-afc3-d5767e960bcf")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-323.wrl"
