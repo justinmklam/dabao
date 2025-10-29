@@ -1,4 +1,4 @@
 (fp_lib_table
   (version 7)
-  (lib (name "Library")(type "KiCad")(uri "/Users/justinlam/Documents/dabao/pcb/library/Library.pretty")(options "")(descr ""))
+  (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/../library/Library.pretty")(options "")(descr ""))
 )
