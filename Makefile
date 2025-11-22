@@ -5,7 +5,7 @@ OUTPUT_PREFIX := $(OUTPUT_DIR)/dabao
 # Space separated list of fields
 BOM_EXTRA_FIELDS := Datasheet
 
-export-kicad-pcb:
+export-kicad-gerbers:
 	@echo "--- Position file ---"
 	@kicad-cli pcb export pos $(PCB_FILE) --format ascii --units mm --exclude-fp-th -o $(OUTPUT_PREFIX).pos
 
@@ -16,6 +16,7 @@ export-kicad-pcb:
 	@(cd $(OUTPUT_DIR)/tmp-gerbers && zip -r ../gerbers.zip .)
 	@rm -rf $(OUTPUT_DIR)/tmp-gerbers
 
+export-kicad-pcb:
 	@echo "--- PDFs ---"
 	@kicad-cli pcb export pdf $(PCB_FILE) -l "F.Paste,F.Mask,F.Silkscreen,Edge.Cuts" --ibt --black-and-white -o $(OUTPUT_PREFIX)-pcb-front.pdf
 	@kicad-cli pcb export pdf $(PCB_FILE) -l "B.Paste,B.Mask,B.Silkscreen,Edge.Cuts" --ibt --black-and-white -o $(OUTPUT_PREFIX)-pcb-back.pdf
@@ -33,4 +34,4 @@ export-kicad-sch:
 	@rm $(OUTPUT_PREFIX)-bom.xml
 	@echo "Saved to $(OUTPUT_PREFIX)-bom.csv"
 
-export-kicad: export-kicad-sch export-kicad-pcb
+export-kicad: export-kicad-gerbers export-kicad-sch export-kicad-pcb

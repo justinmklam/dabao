@@ -1103,7 +1103,7 @@
 		(at 0 0)
 		(size 5 5)
 		(drill 5)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "e6c31486-61b1-45ed-818e-e308e5d52467")
 	)
 	(pad "" np_thru_hole circle
@@ -1169,4 +1169,73 @@
 		(uuid "da24a88c-9d11-4303-a344-d81d63b5fc50")
 	)
 	(embedded_fonts no)
+	(model "${KICAD9_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
+		(hide yes)
+		(offset
+			(xyz -5 3.7 -1.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 180)
+		)
+	)
+	(model "/home/justinlam/Documents/dabao/pcb/library/3dmodels/Kailh Choc Low Profile Switch.step"
+		(hide yes)
+		(offset
+			(xyz 0 0 2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 180)
+		)
+	)
+	(model "/home/justinlam/Documents/dabao/pcb/library/3dmodels/Kailh Choc FunkMonk 1u.step"
+		(hide yes)
+		(offset
+			(xyz 0 0 2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "${KICAD9_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
+		(offset
+			(xyz 5 3.7 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -0 -0)
+		)
+	)
+	(model "/home/justinlam/Documents/dabao/pcb/library/3dmodels/Kailh Choc Low Profile Switch.step"
+		(offset
+			(xyz 0 0 -3.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 180 180)
+		)
+	)
+	(model "/home/justinlam/Documents/dabao/pcb/library/3dmodels/Kailh Choc FunkMonk 1u.step"
+		(offset
+			(xyz 0 0 -4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 180 -0 -0)
+		)
+	)
 )
