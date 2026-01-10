@@ -1170,7 +1170,6 @@
 	)
 	(embedded_fonts no)
 	(model "${KICAD9_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
-		(hide yes)
 		(offset
 			(xyz -5 3.7 -1.6)
 		)
@@ -1181,8 +1180,7 @@
 			(xyz -90 -0 180)
 		)
 	)
-	(model "/home/justinlam/Documents/dabao/pcb/library/3dmodels/Kailh Choc Low Profile Switch.step"
-		(hide yes)
+	(model "${KIPRJMOD}/../library/3dmodels/Kailh Choc Low Profile Switch.step"
 		(offset
 			(xyz 0 0 2)
 		)
@@ -1193,8 +1191,7 @@
 			(xyz -0 -0 180)
 		)
 	)
-	(model "/home/justinlam/Documents/dabao/pcb/library/3dmodels/Kailh Choc FunkMonk 1u.step"
-		(hide yes)
+	(model "${KIPRJMOD}/../library/3dmodels/Kailh Choc FunkMonk 1u.step"
 		(offset
 			(xyz 0 0 2.5)
 		)
@@ -1206,6 +1203,7 @@
 		)
 	)
 	(model "${KICAD9_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
+		(hide yes)
 		(offset
 			(xyz 5 3.7 0)
 		)
@@ -1216,7 +1214,8 @@
 			(xyz 90 -0 -0)
 		)
 	)
-	(model "/home/justinlam/Documents/dabao/pcb/library/3dmodels/Kailh Choc Low Profile Switch.step"
+	(model "${KIPRJMOD}/../library/3dmodels/Kailh Choc Low Profile Switch.step"
+		(hide yes)
 		(offset
 			(xyz 0 0 -3.5)
 		)
@@ -1227,7 +1226,8 @@
 			(xyz -0 180 180)
 		)
 	)
-	(model "/home/justinlam/Documents/dabao/pcb/library/3dmodels/Kailh Choc FunkMonk 1u.step"
+	(model "${KIPRJMOD}/../library/3dmodels/Kailh Choc FunkMonk 1u.step"
+		(hide yes)
 		(offset
 			(xyz 0 0 -4)
 		)
