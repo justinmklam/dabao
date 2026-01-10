@@ -4087,6 +4087,12 @@
 		(uuid "feae9b56-31bc-4095-aa9a-554834b7a332")
 	)
 	(junction
+		(at 67.31 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "016c4ff4-a4ed-4f2f-b398-58c4e2431c6e")
+	)
+	(junction
 		(at 54.61 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4121,6 +4127,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "20458a6b-ca0d-4ad8-947d-fb33d7ec0236")
+	)
+	(junction
+		(at 64.77 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "240557e0-19ec-453b-a664-2108d80cd2c0")
 	)
 	(junction
 		(at 46.99 152.4)
@@ -4267,6 +4279,12 @@
 		(uuid "b3f3aae4-865d-459c-a478-f62e7e37af97")
 	)
 	(junction
+		(at 69.85 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd5b9523-3571-4782-bd51-cea6c00c8b66")
+	)
+	(junction
 		(at 44.45 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4301,6 +4319,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c8e4a43e-e7e7-4315-a693-6b418169f6fe")
+	)
+	(junction
+		(at 62.23 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c940fea4-bad7-418f-ac2e-c32f2f98ce28")
 	)
 	(junction
 		(at 59.69 52.07)
@@ -4444,7 +4468,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 172.72) (xy 78.74 172.72)
+			(xy 50.8 172.72) (xy 69.85 172.72)
 		)
 		(stroke
 			(width 0)
@@ -4574,6 +4598,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 170.18) (xy 78.74 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33512df7-e3f2-4022-8c13-9fbd7242f60f")
+	)
+	(wire
+		(pts
 			(xy 49.53 52.07) (xy 59.69 52.07)
 		)
 		(stroke
@@ -4614,7 +4648,17 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 165.1) (xy 78.74 165.1)
+			(xy 62.23 177.8) (xy 62.23 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39d27694-446d-48d5-b985-ee1d80965292")
+	)
+	(wire
+		(pts
+			(xy 50.8 165.1) (xy 62.23 165.1)
 		)
 		(stroke
 			(width 0)
@@ -4754,6 +4798,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 167.64) (xy 64.77 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62cb3025-6b90-44b7-976e-a0f57d6a9494")
+	)
+	(wire
+		(pts
 			(xy 175.26 29.21) (xy 175.26 31.75)
 		)
 		(stroke
@@ -4854,7 +4908,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 167.64) (xy 78.74 167.64)
+			(xy 50.8 167.64) (xy 64.77 167.64)
 		)
 		(stroke
 			(width 0)
@@ -4954,6 +5008,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 167.64) (xy 78.74 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83a1b7a8-38bc-4b0f-bd8a-c03bbf24d033")
+	)
+	(wire
+		(pts
 			(xy 80.01 101.6) (xy 90.17 101.6)
 		)
 		(stroke
@@ -4974,7 +5038,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 170.18) (xy 78.74 170.18)
+			(xy 50.8 170.18) (xy 67.31 170.18)
 		)
 		(stroke
 			(width 0)
@@ -5021,6 +5085,16 @@
 			(type default)
 		)
 		(uuid "8ec83071-1f8c-45ab-a6c7-e72b45eae3a9")
+	)
+	(wire
+		(pts
+			(xy 62.23 165.1) (xy 78.74 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f83dc86-7eb3-462d-8fa7-6c36c9119918")
 	)
 	(wire
 		(pts
@@ -5164,6 +5238,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 177.8) (xy 67.31 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0bf25f8-c0db-4eaa-8f0b-5dd7307962be")
+	)
+	(wire
+		(pts
 			(xy 69.85 52.07) (xy 80.01 52.07)
 		)
 		(stroke
@@ -5241,6 +5325,16 @@
 			(type default)
 		)
 		(uuid "c1376284-df4b-41a6-9714-a74b9cfc3b9f")
+	)
+	(wire
+		(pts
+			(xy 69.85 172.72) (xy 69.85 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1459101-2182-42f5-9eb9-879636e71760")
 	)
 	(wire
 		(pts
@@ -5491,6 +5585,16 @@
 			(type default)
 		)
 		(uuid "f90cc306-e526-45dc-bf41-485413764ccd")
+	)
+	(wire
+		(pts
+			(xy 69.85 172.72) (xy 78.74 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb513d97-811a-48ba-92a9-3b5a3e74f07d")
 	)
 	(wire
 		(pts
@@ -11866,6 +11970,80 @@
 			(project ""
 				(path "/f7dfc45c-83ad-43c7-9815-463af0b28fbd"
 					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 67.31 182.88 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec810c43-cf27-431f-b8ec-1409995a2880")
+		(property "Reference" "J6"
+			(at 66.04 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 66.04 189.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:TPSensorModule_Connector"
+			(at 67.31 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 67.31 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "4f785387-b141-4ddb-9a44-a6c6e698a5d8")
+		)
+		(pin "1"
+			(uuid "971eb937-a8ed-4f3a-a99c-44f3132ef993")
+		)
+		(pin "3"
+			(uuid "82146384-724a-4aee-932c-5ab2bb80c92f")
+		)
+		(pin "2"
+			(uuid "62e4dd7a-0e40-4a29-828b-4e599a228be9")
+		)
+		(instances
+			(project "dabao"
+				(path "/f7dfc45c-83ad-43c7-9815-463af0b28fbd"
+					(reference "J6")
 					(unit 1)
 				)
 			)
