@@ -211,7 +211,7 @@ outlines:
       name: key-plug
   
 pcbs:
-  tempest-pcb:
+  dabao-pcb:
     template: kicad8
     outlines:
       main:
