@@ -15,9 +15,11 @@
 - **Wireless:** Fully wireless operation for portability.
 - **Single Microcontroller:** Uses one microcontroller and an MCP23017 GPIO expander, eliminating the need for two controllers or batteries to reduce costs and avoid managing uneven battery discharge.
 - **Thumb Trackpoint:** Integrated for precise cursor control.
+- **Reversible PCB:** Keeps it affordable and enables the trackpoint to be installed on the left or right side
 
-## Ideal Use
-Perfect for users who want a compact, travel-friendly keyboard that adapts to both mobile and desktop setups.
+## Firmware
+
+See [zmk-config](https://github.com/justinmklam/zmk-config).
 
 ## Build Guide
 *Coming soon!*
