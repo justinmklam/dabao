@@ -1,5 +1,5 @@
 # dabao
-打包 (dǎ bāo or daa2 baau1), which means to takeout (food) in Chinese, is a wireless, portable 36-key keyboard with a thumb trackpoint, designed for maximum flexibility and convenience.
+打包 (dǎ bāo or daa2 baau1), which means to take out (food) in Chinese, is a wireless, portable 36-key keyboard with a thumb trackpoint, designed for maximum flexibility and convenience.
 
 > ![pcb as unibody](images/pcb-mono.jpeg)
 > <sub>Keyboard can be used as a unibody...</sub>
@@ -7,23 +7,33 @@
 > ![pcb as split](images/pcb-split.jpeg)
 > <sub>... or as a split!</sub>
 
-> [!WARNING]
-> This project is currently a work in progress. Please note that these files are provided as-is, and use is at your own discretion.
+## Design Rationale
+I found that split keyboards can be cumbersome when I’m not working at a desk. Managing two independent halves (as well as a laptop) while moving between coworking spaces, cafés, or even working from the couch quickly becomes unwieldy, and I thought there had to be a better way.
+
+This project explores a keyboard that can seamlessly switch between a unibody form factor (easy to pick up and carry) and a fully split configuration when there's space for a full ergonomic setup. An integrated pointing device is included to reduce the need for external peripherals, making it truly portable.
+
+Albeit unconventional, the trackpoint is positioned under the thumb to:
+- Enable the use of hotswap sockets while keeping the overall keyboard height low
+- Eliminate the need to modify keycaps for trackpoint clearance
+- Allow the fingers to remain on the home row during pointing tasks
+
+In practice, using the thumb instead of the index finger feels functionally similar. After a short adjustment period, I personally haven't experienced a meaningful loss in accuracy or precision.
 
 ## Features
 - **Unibody or Split:** Unique magnetic 4-pin connector allows the keyboard to be used as a single unibody or split into two halves via a USB-C cable. Use unibody mode on the go, and split mode at your desk!
-- **Wireless:** Fully wireless operation for portability.
-- **Single Microcontroller:** Uses one microcontroller and an MCP23017 GPIO expander, eliminating the need for two controllers or batteries to reduce costs and avoid managing uneven battery discharge.
-- **Thumb Trackpoint:** Integrated for precise cursor control.
-- **Reversible PCB:** Keeps it affordable and enables the trackpoint to be installed on the left or right side
-
-## Case
-
-*Coming soon!* The case will make the magnetic interface more robust, which will allow the keyboard to be lifted from either side without it collapsing in half. Additional magnets will likely be added to make the connection more secure.
+- **Single Microcontroller:** Uses one microcontroller and a GPIO expander, eliminating the need for two controllers or batteries to reduce costs and avoid managing uneven battery discharge.
+- **Integrated Trackpoint:** For convenient and precise cursor control.
+- **Reversible PCB:** Keeps ordering PCBs affordable. Also enables the trackpoint to be installed on the left or right side.
+- **Wireless:** Wireless operation (between the host computer) for portability.
+- **Hotswap Switches:** Supports Choc V1 or V2 switches. Can also be soldered directly if desired.
 
 ## Firmware
 
 See [zmk-config](https://github.com/justinmklam/zmk-config).
+
+## Case
+
+*Coming soon!* - The case will make the magnetic interface more robust, which will allow the keyboard to be lifted from either side without it collapsing in half. Additional magnets will likely be added to make the connection more secure.
 
 ## Build Guide
 *Coming soon!*
@@ -45,7 +55,7 @@ Helpful trackpoint resources:
 
 ## Support
 
-Thank you to my current sponsors for making this project possible!
+Thank you to my sponsors for making this project possible!
 
 <a href="https://shop.beekeeb.com" target="_blank"><img src="https://beekeeb.com/beekeeb-logo.png" align="left" width="200" ></a>
 
