@@ -17,6 +17,10 @@
 - **Thumb Trackpoint:** Integrated for precise cursor control.
 - **Reversible PCB:** Keeps it affordable and enables the trackpoint to be installed on the left or right side
 
+## Case
+
+*Coming soon!* The case will make the magnetic interface more robust, which will allow the keyboard to be lifted from either side without it collapsing in half. Additional magnets will likely be added to make the connection more secure.
+
 ## Firmware
 
 See [zmk-config](https://github.com/justinmklam/zmk-config).
@@ -32,6 +36,7 @@ This design was inspired by the following keyboards:
 - [Santoku](https://www.reddit.com/r/ErgoMechKeyboards/comments/oisnad/i_made_this_santoku_gen_2_trackpoint_as_a/?chainedPosts=t3_g4m3f6)
 
 Helpful trackpoint resources:
+- [infused-kim's Trackpoint Driver](https://github.com/infused-kim/kb_zmk_ps2_mouse_trackpoint_driver) - outdated for the recent versions of zmk, but still a treasure trove of information
 - [Jorne Trackpoint Wiki](https://github.com/joric/jorne/wiki/Tracking)
 - [TheMK Wiki - TrackPoint Overview](https://wiki.themk.org/index.php/TrackPoint)
 - [KBD News - Trackpoint Integration Guide](https://kbd.news/How-to-integrate-a-trackpoint-into-your-keyboard-2447.html)
