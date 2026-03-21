@@ -57,7 +57,8 @@ Helpful trackpoint resources:
 
 Thank you to my sponsors for making this project possible!
 
+The PCBs for this project were manufactured by **[PCBWay](https://pcbway.com)**. The boards came out clean with good tolerances and had a fast turnaround, especially considering it came from the other side of the world. Recommended if you're looking to prototype or build your own keyboard!
+
 <a href="https://shop.beekeeb.com" target="_blank"><img src="https://beekeeb.com/beekeeb-logo.png" align="left" width="200" ></a>
 
 <a href="https://pcbway.com" target="_blank"><img src="https://freight.cargo.site/w/800/i/a931690205c27162476213b8bcc171585aad9d84d65cdc121ca425e813114121/0x0.png" align="left" width="200" ></a>
-
