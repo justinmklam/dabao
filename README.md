@@ -1,4 +1,5 @@
 # dabao
+
 打包 (dǎ bāo or daa2 baau1), which means to take out (food) in Chinese, is a wireless, portable 36-key keyboard with a thumb trackpoint, designed for maximum flexibility and convenience.
 
 > ![pcb as unibody](images/pcb-mono.jpeg)
@@ -8,11 +9,13 @@
 > <sub>... or as a split!</sub>
 
 ## Design Rationale
+
 I found that split keyboards can be cumbersome when I’m not working at a desk. Managing two independent halves (as well as a laptop) while moving between coworking spaces, cafés, or even working from the couch quickly becomes unwieldy, and I thought there had to be a better way.
 
 This project explores a keyboard that can seamlessly switch between a unibody form factor (easy to pick up and carry) and a fully split configuration when there's space for a full ergonomic setup. An integrated pointing device is included to reduce the need for external peripherals, making it truly portable.
 
 Albeit unconventional, the trackpoint is positioned under the thumb to:
+
 - Enable the use of hotswap sockets while keeping the overall keyboard height low
 - Eliminate the need to modify keycaps for trackpoint clearance
 - Allow the fingers to remain on the home row during pointing tasks
@@ -20,6 +23,7 @@ Albeit unconventional, the trackpoint is positioned under the thumb to:
 In practice, using the thumb instead of the index finger feels functionally similar. After a short adjustment period, I personally haven't experienced a meaningful loss in accuracy or precision.
 
 ## Features
+
 - **Unibody or Split:** Unique magnetic 4-pin connector allows the keyboard to be used as a single unibody or split into two halves via a USB-C cable. Use unibody mode on the go, and split mode at your desk!
 - **Single Microcontroller:** Uses one microcontroller and a GPIO expander, eliminating the need for two controllers or batteries to reduce costs and avoid managing uneven battery discharge.
 - **Integrated Trackpoint:** For convenient and precise cursor control.
@@ -36,16 +40,22 @@ See [zmk-config](https://github.com/justinmklam/zmk-config).
 *Coming soon!* - The case will make the magnetic interface more robust, which will allow the keyboard to be lifted from either side without it collapsing in half. Additional magnets will likely be added to make the connection more secure.
 
 ## Build Guide
+
+> [!WARNING]
+> This project is provided for educational and experimental purposes only. It is shared "as-is," without any warranty of any kind, express or implied, including but not limited to the warranties of merchantability or fitness for a particular purpose. By using these files, you acknowledge that you are assuming all risks associated with the assembly, use, and operation of the hardware. The author shall not be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the project or the use of these files.
+
 *Coming soon!*
 
 ## Acknowledgements
 
 This design was inspired by the following keyboards:
+
 - [TPS42](https://github.com/crehmann/TPS42)
 - [duet](https://github.com/zzeneg/duet)
 - [Santoku](https://www.reddit.com/r/ErgoMechKeyboards/comments/oisnad/i_made_this_santoku_gen_2_trackpoint_as_a/?chainedPosts=t3_g4m3f6)
 
 Helpful trackpoint resources:
+
 - [infused-kim's Trackpoint Driver](https://github.com/infused-kim/kb_zmk_ps2_mouse_trackpoint_driver) - outdated for the recent versions of zmk, but still a treasure trove of information
 - [Jorne Trackpoint Wiki](https://github.com/joric/jorne/wiki/Tracking)
 - [TheMK Wiki - TrackPoint Overview](https://wiki.themk.org/index.php/TrackPoint)
