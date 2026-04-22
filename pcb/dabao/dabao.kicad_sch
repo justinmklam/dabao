@@ -4207,6 +4207,12 @@
 		(uuid "66eb8018-5c8f-4f57-b9e3-520476faa84a")
 	)
 	(junction
+		(at 175.26 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ecac80e-810e-4fd4-9b50-dd1c65e78425")
+	)
+	(junction
 		(at 85.09 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4229,6 +4235,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8da93387-841b-442a-a1ae-bf86cd163b79")
+	)
+	(junction
+		(at 175.26 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9186097f-2f57-4dec-b0e5-964263c330d9")
 	)
 	(junction
 		(at 57.15 149.86)
@@ -4611,6 +4623,16 @@
 			(type default)
 		)
 		(uuid "395706dc-be49-45ae-bb20-0aac7223f086")
+	)
+	(wire
+		(pts
+			(xy 175.26 129.54) (xy 175.26 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c9cba14-b6e5-42e7-a056-f343d9cd88c0")
 	)
 	(wire
 		(pts
@@ -5454,6 +5476,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 127) (xy 175.26 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f05c9fb1-5116-4d92-aa19-63f2e6ced486")
+	)
+	(wire
+		(pts
 			(xy 236.22 44.45) (xy 242.57 44.45)
 		)
 		(stroke
@@ -6172,7 +6204,7 @@
 			(uuid "b12285c7-4d1a-4f4f-82f5-667c21719405")
 		)
 		(instances
-			(project "dabao-choc"
+			(project "dabao"
 				(path "/f7dfc45c-83ad-43c7-9815-463af0b28fbd"
 					(reference "D5")
 					(unit 1)
@@ -6260,7 +6292,7 @@
 			(uuid "a6c7f672-b85b-4700-91b9-a3581b3b3b92")
 		)
 		(instances
-			(project "dabao-choc"
+			(project "dabao"
 				(path "/f7dfc45c-83ad-43c7-9815-463af0b28fbd"
 					(reference "D12")
 					(unit 1)
@@ -6398,7 +6430,7 @@
 			(uuid "300a7d2f-94e0-4125-b63d-9d70ec6a906d")
 		)
 		(instances
-			(project "dabao-choc"
+			(project "dabao"
 				(path "/f7dfc45c-83ad-43c7-9815-463af0b28fbd"
 					(reference "S16")
 					(unit 1)
@@ -6600,7 +6632,7 @@
 			(uuid "f0c67330-5ebf-4f38-aa16-7709cda013f4")
 		)
 		(instances
-			(project "dabao-choc"
+			(project "dabao"
 				(path "/f7dfc45c-83ad-43c7-9815-463af0b28fbd"
 					(reference "S3")
 					(unit 1)
@@ -6760,7 +6792,7 @@
 			(uuid "81824d6a-a531-417f-8315-2ca62c424850")
 		)
 		(instances
-			(project ""
+			(project "dabao"
 				(path "/f7dfc45c-83ad-43c7-9815-463af0b28fbd"
 					(reference "U2")
 					(unit 1)
@@ -6916,7 +6948,7 @@
 			(uuid "65ea629e-d96c-4ff3-be8d-08a69ace177b")
 		)
 		(instances
-			(project "dabao-choc"
+			(project "dabao"
 				(path "/f7dfc45c-83ad-43c7-9815-463af0b28fbd"
 					(reference "D16")
 					(unit 1)
@@ -7185,7 +7217,7 @@
 			(uuid "f5f39380-4fec-4a00-95c6-a28a16c05984")
 		)
 		(instances
-			(project ""
+			(project "dabao"
 				(path "/f7dfc45c-83ad-43c7-9815-463af0b28fbd"
 					(reference "JP13")
 					(unit 1)
@@ -7340,7 +7372,7 @@
 			(uuid "45be0906-37ab-4794-aec7-4f9229492c09")
 		)
 		(instances
-			(project "dabao-choc"
+			(project "dabao"
 				(path "/f7dfc45c-83ad-43c7-9815-463af0b28fbd"
 					(reference "D15")
 					(unit 1)
@@ -7489,7 +7521,7 @@
 			(uuid "251cf140-6365-4b70-946b-fd1e79288e5e")
 		)
 		(instances
-			(project ""
+			(project "dabao"
 				(path "/f7dfc45c-83ad-43c7-9815-463af0b28fbd"
 					(reference "U1")
 					(unit 1)
@@ -7577,7 +7609,7 @@
 			(uuid "ae517606-0acf-4e54-af82-c550bb6e6588")
 		)
 		(instances
-			(project "dabao-choc"
+			(project "dabao"
 				(path "/f7dfc45c-83ad-43c7-9815-463af0b28fbd"
 					(reference "D11")
 					(unit 1)
@@ -7665,7 +7697,7 @@
 			(uuid "e29c84e6-d5fe-4a8c-b44f-c7d0eba75e20")
 		)
 		(instances
-			(project "dabao-choc"
+			(project "dabao"
 				(path "/f7dfc45c-83ad-43c7-9815-463af0b28fbd"
 					(reference "D17")
 					(unit 1)
@@ -7823,7 +7855,7 @@
 			(uuid "3c520a77-bf2e-4fce-bbcd-a0b8cc1ac6ce")
 		)
 		(instances
-			(project "dabao-choc"
+			(project "dabao"
 				(path "/f7dfc45c-83ad-43c7-9815-463af0b28fbd"
 					(reference "D4")
 					(unit 1)
@@ -7891,7 +7923,7 @@
 			(uuid "205260e9-89b6-455b-a2bd-a39cc17545fb")
 		)
 		(instances
-			(project ""
+			(project "dabao"
 				(path "/f7dfc45c-83ad-43c7-9815-463af0b28fbd"
 					(reference "JP1")
 					(unit 1)
@@ -7979,7 +8011,7 @@
 			(uuid "080b7e0a-23d5-48d3-9fb1-92cc184e74ea")
 		)
 		(instances
-			(project "dabao-choc"
+			(project "dabao"
 				(path "/f7dfc45c-83ad-43c7-9815-463af0b28fbd"
 					(reference "D9")
 					(unit 1)
@@ -8183,7 +8215,7 @@
 			(uuid "bf676964-d491-4baa-9ec6-ea7e3ecdae40")
 		)
 		(instances
-			(project ""
+			(project "dabao"
 				(path "/f7dfc45c-83ad-43c7-9815-463af0b28fbd"
 					(reference "R1")
 					(unit 1)
@@ -8251,7 +8283,7 @@
 			(uuid "587720ad-bf7e-4958-b2d8-ff56d07050de")
 		)
 		(instances
-			(project "dabao-choc"
+			(project "dabao"
 				(path "/f7dfc45c-83ad-43c7-9815-463af0b28fbd"
 					(reference "S2")
 					(unit 1)
@@ -8339,7 +8371,7 @@
 			(uuid "e9ae27a9-9838-4ac0-a3a6-04ccd20308e2")
 		)
 		(instances
-			(project "dabao-choc"
+			(project "dabao"
 				(path "/f7dfc45c-83ad-43c7-9815-463af0b28fbd"
 					(reference "D10")
 					(unit 1)
@@ -8475,7 +8507,7 @@
 			(uuid "d201b0a4-84c8-4b39-946d-3762f32b620e")
 		)
 		(instances
-			(project "dabao-choc"
+			(project "dabao"
 				(path "/f7dfc45c-83ad-43c7-9815-463af0b28fbd"
 					(reference "S9")
 					(unit 1)
@@ -8563,9 +8595,75 @@
 			(uuid "d8ac67b6-1b3d-49c0-873b-a18c0528b3de")
 		)
 		(instances
-			(project "dabao-choc"
+			(project "dabao"
 				(path "/f7dfc45c-83ad-43c7-9815-463af0b28fbd"
 					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 175.26 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58acc511-3740-4701-9e8e-4d4b05fbf1f9")
+		(property "Reference" "#PWR019"
+			(at 175.26 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 175.26 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 175.26 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39ab76f0-de28-4f50-be7d-c7e02a83ac85")
+		)
+		(instances
+			(project "dabao"
+				(path "/f7dfc45c-83ad-43c7-9815-463af0b28fbd"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -8631,7 +8729,7 @@
 			(uuid "3721bc70-4f15-4680-b790-30de7b8447b1")
 		)
 		(instances
-			(project "dabao-choc"
+			(project "dabao"
 				(path "/f7dfc45c-83ad-43c7-9815-463af0b28fbd"
 					(reference "S18")
 					(unit 1)
@@ -8744,7 +8842,7 @@
 			(uuid "01f59841-47df-4114-9f42-aed585518847")
 		)
 		(instances
-			(project "dabao-choc"
+			(project "dabao"
 				(path "/f7dfc45c-83ad-43c7-9815-463af0b28fbd"
 					(reference "J2")
 					(unit 1)
@@ -8812,7 +8910,7 @@
 			(uuid "459a9c8c-6a36-40cb-8cfc-eaa7da844488")
 		)
 		(instances
-			(project "dabao-choc"
+			(project "dabao"
 				(path "/f7dfc45c-83ad-43c7-9815-463af0b28fbd"
 					(reference "S4")
 					(unit 1)
@@ -9158,7 +9256,7 @@
 			(uuid "3050ba60-1035-4bc1-a59f-d9610e4dab40")
 		)
 		(instances
-			(project ""
+			(project "dabao"
 				(path "/f7dfc45c-83ad-43c7-9815-463af0b28fbd"
 					(reference "J3")
 					(unit 1)
@@ -9226,7 +9324,7 @@
 			(uuid "560859be-c696-4054-8b0d-b1ca6f25d2a8")
 		)
 		(instances
-			(project "dabao-choc"
+			(project "dabao"
 				(path "/f7dfc45c-83ad-43c7-9815-463af0b28fbd"
 					(reference "S11")
 					(unit 1)
@@ -9293,7 +9391,7 @@
 			(uuid "2eb4288b-524e-4156-a3bc-b2c6ff7b3c8d")
 		)
 		(instances
-			(project ""
+			(project "dabao"
 				(path "/f7dfc45c-83ad-43c7-9815-463af0b28fbd"
 					(reference "#PWR04")
 					(unit 1)
@@ -9427,7 +9525,7 @@
 			(uuid "2f1c83ee-c3ef-4b7a-bd9a-42b65dcf8593")
 		)
 		(instances
-			(project "dabao-choc"
+			(project "dabao"
 				(path "/f7dfc45c-83ad-43c7-9815-463af0b28fbd"
 					(reference "S10")
 					(unit 1)
@@ -9495,7 +9593,7 @@
 			(uuid "ee4687e6-3546-49b8-9b39-1f0a12d22599")
 		)
 		(instances
-			(project "dabao-choc"
+			(project "dabao"
 				(path "/f7dfc45c-83ad-43c7-9815-463af0b28fbd"
 					(reference "S6")
 					(unit 1)
@@ -9633,7 +9731,7 @@
 			(uuid "f2c44d79-15e6-4879-9a23-6836f6561cb9")
 		)
 		(instances
-			(project "dabao-choc"
+			(project "dabao"
 				(path "/f7dfc45c-83ad-43c7-9815-463af0b28fbd"
 					(reference "S7")
 					(unit 1)
@@ -9721,7 +9819,7 @@
 			(uuid "304539f9-5662-41d4-887d-051d6096ea53")
 		)
 		(instances
-			(project "dabao-choc"
+			(project "dabao"
 				(path "/f7dfc45c-83ad-43c7-9815-463af0b28fbd"
 					(reference "D2")
 					(unit 1)
@@ -10272,7 +10370,7 @@
 			(uuid "cdc0ab64-c86d-4883-a030-48e7448ce87c")
 		)
 		(instances
-			(project "dabao-choc"
+			(project "dabao"
 				(path "/f7dfc45c-83ad-43c7-9815-463af0b28fbd"
 					(reference "S17")
 					(unit 1)
@@ -10417,7 +10515,7 @@
 			(uuid "38109bb9-b8d4-4a17-995f-8f8ed987a74e")
 		)
 		(instances
-			(project ""
+			(project "dabao"
 				(path "/f7dfc45c-83ad-43c7-9815-463af0b28fbd"
 					(reference "J8")
 					(unit 1)
@@ -10553,7 +10651,7 @@
 			(uuid "46974a05-c976-43e9-b80e-1e385967a3fe")
 		)
 		(instances
-			(project "dabao-choc"
+			(project "dabao"
 				(path "/f7dfc45c-83ad-43c7-9815-463af0b28fbd"
 					(reference "S8")
 					(unit 1)
@@ -10822,7 +10920,7 @@
 			(uuid "4d98eb93-b2a3-4be2-bcc3-4d91ad16a6a3")
 		)
 		(instances
-			(project "dabao-choc"
+			(project "dabao"
 				(path "/f7dfc45c-83ad-43c7-9815-463af0b28fbd"
 					(reference "S15")
 					(unit 1)
@@ -10890,7 +10988,7 @@
 			(uuid "90e39039-e7b6-4094-9e64-17099311adc3")
 		)
 		(instances
-			(project "dabao-choc"
+			(project "dabao"
 				(path "/f7dfc45c-83ad-43c7-9815-463af0b28fbd"
 					(reference "S13")
 					(unit 1)
@@ -10978,7 +11076,7 @@
 			(uuid "77c15075-35ff-48f7-b469-6e12debf4548")
 		)
 		(instances
-			(project ""
+			(project "dabao"
 				(path "/f7dfc45c-83ad-43c7-9815-463af0b28fbd"
 					(reference "D1")
 					(unit 1)
@@ -11066,7 +11164,7 @@
 			(uuid "31461b5d-a332-4421-95b6-c80edb8a60d4")
 		)
 		(instances
-			(project "dabao-choc"
+			(project "dabao"
 				(path "/f7dfc45c-83ad-43c7-9815-463af0b28fbd"
 					(reference "D13")
 					(unit 1)
@@ -11337,7 +11435,7 @@
 			(uuid "8747e73c-daf8-404b-b61a-70c3468039fc")
 		)
 		(instances
-			(project "dabao-choc"
+			(project "dabao"
 				(path "/f7dfc45c-83ad-43c7-9815-463af0b28fbd"
 					(reference "S5")
 					(unit 1)
@@ -11405,7 +11503,7 @@
 			(uuid "f7dda5e3-3dfa-4bb7-85d8-273ce3578d24")
 		)
 		(instances
-			(project "dabao-choc"
+			(project "dabao"
 				(path "/f7dfc45c-83ad-43c7-9815-463af0b28fbd"
 					(reference "S12")
 					(unit 1)
@@ -11493,7 +11591,7 @@
 			(uuid "9e17bce9-6dc3-4464-b713-46e0c0f17724")
 		)
 		(instances
-			(project "dabao-choc"
+			(project "dabao"
 				(path "/f7dfc45c-83ad-43c7-9815-463af0b28fbd"
 					(reference "D14")
 					(unit 1)
@@ -11581,7 +11679,7 @@
 			(uuid "c1deff64-04a7-4eae-ad2a-61e9a7858894")
 		)
 		(instances
-			(project "dabao-choc"
+			(project "dabao"
 				(path "/f7dfc45c-83ad-43c7-9815-463af0b28fbd"
 					(reference "D7")
 					(unit 1)
@@ -11659,7 +11757,7 @@
 			(uuid "e8827e0b-f7ff-4cce-b556-83746d3997fe")
 		)
 		(instances
-			(project ""
+			(project "dabao"
 				(path "/f7dfc45c-83ad-43c7-9815-463af0b28fbd"
 					(reference "J1")
 					(unit 1)
@@ -11727,7 +11825,7 @@
 			(uuid "0c0fd830-623d-43cd-9103-77538a50bb1d")
 		)
 		(instances
-			(project "dabao-choc"
+			(project "dabao"
 				(path "/f7dfc45c-83ad-43c7-9815-463af0b28fbd"
 					(reference "S14")
 					(unit 1)
@@ -11795,7 +11893,7 @@
 			(uuid "ac6669c5-bd8f-4b7e-a2d4-a67d8dc0db78")
 		)
 		(instances
-			(project ""
+			(project "dabao"
 				(path "/f7dfc45c-83ad-43c7-9815-463af0b28fbd"
 					(reference "C1")
 					(unit 1)
@@ -11863,7 +11961,7 @@
 			(uuid "7654828b-2b4f-4899-b5e4-81b918334670")
 		)
 		(instances
-			(project ""
+			(project "dabao"
 				(path "/f7dfc45c-83ad-43c7-9815-463af0b28fbd"
 					(reference "S1")
 					(unit 1)
@@ -12151,7 +12249,7 @@
 			(uuid "4148203c-cc20-4e30-881f-c6b09bf9188f")
 		)
 		(instances
-			(project "dabao-choc"
+			(project "dabao"
 				(path "/f7dfc45c-83ad-43c7-9815-463af0b28fbd"
 					(reference "D8")
 					(unit 1)
@@ -12305,7 +12403,7 @@
 			(uuid "be74ea20-08ae-4001-b094-c5819f19402a")
 		)
 		(instances
-			(project "dabao-choc"
+			(project "dabao"
 				(path "/f7dfc45c-83ad-43c7-9815-463af0b28fbd"
 					(reference "D6")
 					(unit 1)
@@ -12393,7 +12491,7 @@
 			(uuid "8daceba4-652b-4654-9ced-a60dfa5df324")
 		)
 		(instances
-			(project "dabao-choc"
+			(project "dabao"
 				(path "/f7dfc45c-83ad-43c7-9815-463af0b28fbd"
 					(reference "D3")
 					(unit 1)
