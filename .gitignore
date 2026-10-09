@@ -40,3 +40,4 @@ fp-info-cache
 
 # Local project settings
 *.kicad_prl
+/pcb/dabao/.history
