@@ -1,36 +1,36 @@
-### Footprint positions - created on 2026-04-21T21:26:39-0700 ###
-### Printed by KiCad version 9.0.8-9.0.8~ubuntu22.04.1
+### Footprint positions - created on 2026-10-09T21:04:29 ###
+### Printed by KiCad version 10.0.6
 ## Unit = mm, Angle = deg.
 ## Side : All
 # Ref     Val          Package                                  PosX       PosY       Rot  Side
-C1        2.2uF        C_0805_2012Metric                    133.6214   -97.1630  165.0000  bottom
-D1        1N4148       D_SOD-323_HandSoldering_Reversable    94.8451   -93.1515  -15.0000  bottom
-D2        1N4148       D_SOD-323_HandSoldering_Reversable    99.2450   -76.7308  -15.0000  bottom
-D3        1N4148       D_SOD-323_HandSoldering_Reversable   103.6449   -60.3100  -15.0000  bottom
-D4        1N4148       D_SOD-323_HandSoldering_Reversable   116.2347   -84.8031  -15.0000  bottom
-D5        1N4148       D_SOD-323_HandSoldering_Reversable   120.6346   -68.3823  -15.0000  bottom
-D6        1N4148       D_SOD-323_HandSoldering_Reversable   125.0345   -51.9616  -15.0000  bottom
-D7        1N4148       D_SOD-323_HandSoldering_Reversable   135.8643   -83.0229  -15.0000  bottom
-D8        1N4148       D_SOD-323_HandSoldering_Reversable   140.2642   -66.6022  -15.0000  bottom
-D9        1N4148       D_SOD-323_HandSoldering_Reversable   144.6641   -50.1815  -15.0000  bottom
-D10       1N4148       D_SOD-323_HandSoldering_Reversable   152.6039   -90.0965  -15.0000  bottom
-D11       1N4148       D_SOD-323_HandSoldering_Reversable   156.7522   -73.6358  -15.0000  bottom
-D12       1N4148       D_SOD-323_HandSoldering_Reversable   161.4037   -57.2550  -15.0000  bottom
-D13       1N4148       D_SOD-323_HandSoldering_Reversable   169.3435   -97.1700  -15.0000  bottom
-D14       1N4148       D_SOD-323_HandSoldering_Reversable   173.7434   -80.7493  -15.0000  bottom
-D15       1N4148       D_SOD-323_HandSoldering_Reversable   178.0786   -64.5701  -15.0000  bottom
-D16       1N4148       D_SOD-323_HandSoldering_Reversable   149.1652  -110.6571  -15.0000  bottom
-D17       1N4148       D_SOD-323_HandSoldering_Reversable   168.4272  -119.1069  -30.0000  bottom
-D18       1N4148       D_SOD-323_HandSoldering_Reversable   184.8258  -132.1180  -45.0000  bottom
-J1        Conn_01x05   TPModule                             139.8572  -108.1340  165.0000  bottom
-J3        Conn_01x04   TPSensorModule_Connector             127.1861   -98.9203   75.0000  bottom
-R8        100k         R_0805_2012Metric                    128.7906   -95.8734  -15.0000  bottom
-J7        Conn_01x04   TPSensorModule_Connector             195.9763  -121.2121  -90.0000  top
-R1        10k          R_0805_2012Metric                    197.3431  -108.9331  -90.0000  top
-R2        4.7k         R_0805_2012Metric                    198.8431   -82.0206  -90.0000  top
-R3        4.7k         R_0805_2012Metric                    201.5931   -82.0206  -90.0000  top
-R4        4.7k         R_0805_2012Metric                    193.5104   -82.0221   90.0000  top
-R5        4.7k         R_0805_2012Metric                    196.1202   -82.0810   90.0000  top
-SW1       SW_RESET     SW_Push_SPST_NO_Alps_SKRK            198.5205   -71.9766   90.0000  top
-U2        MCP23017_SP  SOIC-28W_7.5x17.9mm_P1.27mm          184.1931  -104.2756    0.0000  top
+C1        2.2uF        C_0805_2012Metric                    132.7533   -95.1150  165.0000  bottom
+D1        1N4148       D_SOD-323_HandSoldering_Reversable    93.9770   -91.1035  -15.0000  bottom
+D2        1N4148       D_SOD-323_HandSoldering_Reversable    98.3769   -74.6828  -15.0000  bottom
+D3        1N4148       D_SOD-323_HandSoldering_Reversable   102.7768   -58.2621  -15.0000  bottom
+D4        1N4148       D_SOD-323_HandSoldering_Reversable   115.3665   -82.7551  -15.0000  bottom
+D5        1N4148       D_SOD-323_HandSoldering_Reversable   119.7665   -66.3344  -15.0000  bottom
+D6        1N4148       D_SOD-323_HandSoldering_Reversable   124.1664   -49.9136  -15.0000  bottom
+D7        1N4148       D_SOD-323_HandSoldering_Reversable   134.9961   -80.9750  -15.0000  bottom
+D8        1N4148       D_SOD-323_HandSoldering_Reversable   139.3961   -64.5542  -15.0000  bottom
+D9        1N4148       D_SOD-323_HandSoldering_Reversable   143.7960   -48.1335  -15.0000  bottom
+D10       1N4148       D_SOD-323_HandSoldering_Reversable   151.7357   -88.0485  -15.0000  bottom
+D11       1N4148       D_SOD-323_HandSoldering_Reversable   155.8840   -71.5879  -15.0000  bottom
+D12       1N4148       D_SOD-323_HandSoldering_Reversable   160.5356   -55.2070  -15.0000  bottom
+D13       1N4148       D_SOD-323_HandSoldering_Reversable   168.4754   -95.1221  -15.0000  bottom
+D14       1N4148       D_SOD-323_HandSoldering_Reversable   172.8753   -78.7013  -15.0000  bottom
+D15       1N4148       D_SOD-323_HandSoldering_Reversable   177.2105   -62.5221  -15.0000  bottom
+D16       1N4148       D_SOD-323_HandSoldering_Reversable   148.2971  -108.6091  -15.0000  bottom
+D17       1N4148       D_SOD-323_HandSoldering_Reversable   167.5591  -117.0589  -30.0000  bottom
+D18       1N4148       D_SOD-323_HandSoldering_Reversable   183.9577  -130.0700  -45.0000  bottom
+J1        Conn_01x05   TPModule                             138.9891  -106.0860  165.0000  bottom
+J3        Conn_01x04   TPSensorModule_Connector             126.3180   -96.8724   75.0000  bottom
+R8        100k         R_0805_2012Metric                    127.9224   -93.8254  -15.0000  bottom
+J7        Conn_01x04   TPSensorModule_Connector             195.1082  -119.1641  -90.0000  top
+R1        10k          R_0805_2012Metric                    196.4749  -106.8852  -90.0000  top
+R2        4.7k         R_0805_2012Metric                    197.9749   -79.9727  -90.0000  top
+R3        4.7k         R_0805_2012Metric                    200.7249   -79.9727  -90.0000  top
+R4        4.7k         R_0805_2012Metric                    192.6422   -79.9741   90.0000  top
+R5        4.7k         R_0805_2012Metric                    195.2521   -80.0330   90.0000  top
+SW1       SW_RESET     SW_Push_SPST_NO_Alps_SKRK            197.6523   -69.9286   90.0000  top
+U2        MCP23017_SP  SOIC-28W_7.5x17.9mm_P1.27mm          183.3249  -102.2277    0.0000  top
 ## End
