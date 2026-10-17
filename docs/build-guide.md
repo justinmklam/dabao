@@ -10,7 +10,7 @@ Difficulty level: **intermediate/advanced** (due to the fine pitch of the throug
 | Qty | Component                                                      | Reference                                                      |
 | --- | -------------------------------------------------------------- | -------------------------------------------------------------- |
 | 36  | 1N4148 Diode SOD-323                                           | D1,D2,D3,D4,D5,D6,D7,D8,D9,D10,D11,D12,D13,D14,D15,D16,D17,D18 |
-| 36  | Choc v1 Hotswap Sockets (optional)                             | S1,S2,S3,S4,S5,S6,S7,S8,S9,S10,S11,S12,S13,S14,S15,S16,S17,S18 |
+| 36  | Choc v1/v2 Hotswap Sockets (optional)                          | S1,S2,S3,S4,S5,S6,S7,S8,S9,S10,S11,S12,S13,S14,S15,S16,S17,S18 |
 | 2   | USB 2.0 C Receptacle 16+8POS (USB4085-GF-A)                    | J2                                                             |
 | 1   | 4-pin Right Angle Magnetic Pogo Pin Connector Male/Female Pair | J4                                                             |
 | 4   | 4.7k Resistor 0805                                             | R2,R3,R4,R5                                                    |
@@ -26,7 +26,7 @@ Here's an example of the magnetic pogo pin connector to purchase ([link](https:/
 
 ![](images/aliex-magnetic-pogo-pin.png)
 
-> [!INFO]
+> [!NOTE]
 > For the resistor R8 and capacitor C1 used in the trackpoint reset circuit, this should technically not be necessary and can be controlled by the MCU instead. If going this path, uncomment out [this line](https://github.com/justinmklam/zmk-config/blob/204022fa73cc7d1d807504aa6fad1bef3adb5fb0/boards/shields/dabao/dabao_trackpoint.dtsi#L9) in the trackpoint driver and leave R8 and C1 unpopulated.
 
 Parts that you'll need to provide yourself:
@@ -37,9 +37,9 @@ Parts that you'll need to provide yourself:
 | 1   | Trackpoint Module*                                  |
 | 1   | Trackpoint Nub                                      |
 | 1   | 3.7 V 301230 031230P 110mAh LiPo battery            |
-| 36  | Keycaps                                             |
-| 36  | Switches                                            |
-| 1   | Display (optional)                                  |
+| 36  | Keycaps (Choc spacing)                              |
+| 36  | Choc v1/v2 Switches                                 |
+| 1   | OLED or nice!view display (optional)                |
 
 \*Wondering where to find a trackpoint module? See [Trackpoint Sourcing](./trackpoint-sourcing.md).
 
@@ -53,7 +53,7 @@ Hardware for the case:
 | 12  | M2x3x3 Heatset Inserts       |
 | 12  | M2x4mm Countersunk Fasteners |
 
-The table below consists of the parts to 3D print. 
+The table below consists of the parts to 3D print, where the files can be found [here](../cad/3dprint). 
 
 | Qty | Description           |
 | --- | --------------------- |
@@ -84,7 +84,7 @@ The PCBs are reversible, so it's recommended to label each side with masking tap
 
 ![](images/pcb-bare.png)
 
-> [!INFO]
+> [!NOTE]
 > Note that some of the pictures shown were taken retroactively, so don't be confused if the PCB doesn't look exactly as yours during assembly. Please refer to the [schematic](../pcb/dabao/exports/dabao-schematic.pdf) or the [kicad design files](../pcb/dabao) if more clarity is needed.
 ### Right Side
 First, solder all the components on the backside, starting with the diodes, ensuring the orientation of the diode is correct.
@@ -196,7 +196,8 @@ Optional, but recommended: Install a thin piece of foam to dampen the switches, 
 
 ![](images/pasted-image-20261014210735.png)
 
-Note: At this point, it's recommended to try flashing the MCU before closing everything up, since the LEDs are not visible so it'll be difficult to diagnose in case the flash isn't successful.
+> [!NOTE]
+> At this point, it's recommended to try flashing the MCU before closing everything up, since the LEDs are not visible so it'll be difficult to diagnose in case the flash isn't successful.
 
 Slide on the top cover, then install the switches to secure the cover to the PCB.
 
